@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CPTemplate>
+  <CPSheet>
+    <GroupBox Label="General" PropName="Zone de groupe2" DefaultState="Expanded">
+      <Control Label="Projet" PropName="Projet" ApplyTo="Global" Type="TextBox" DefaultValue="Poppy Project (beta)" Mode="Text" />
+      <Control Label="Author" PropName="Auteur" ApplyTo="Global" Type="TextBox" DefaultValue="SW-Author" Mode="SWProperty" />
+      <Control Label="University" PropName="Zone de texte14" ApplyTo="Global" Type="TextBox" DefaultValue="inria Flowers team" Mode="Text" />
+      <Control Label="Licence" PropName="Licence" ApplyTo="Global" Type="TextBox" DefaultValue="Creative Commons BY-NC-SA" Mode="Text" />
+      <Control Label="Website" PropName="Zone de texte13" ApplyTo="Global" Type="TextBox" DefaultValue="www.poppy-project.org" Mode="Text" />
+    </GroupBox>
+    <GroupBox Label="Part Properties" PropName="Zone de groupe5" DefaultState="Expanded">
+      <Control Label="Description" PropName="Zone de texte6" ApplyTo="Config" Type="TextBox" DefaultValue="SW-Comments" Mode="SWProperty" />
+      <Control Label="Revision" PropName="Zone de texte8" ApplyTo="Config" Type="TextBox" DefaultValue="A-01" Mode="Text" />
+      <Control Label="Material" PropName="Matériau" ApplyTo="Config" Type="TextBox" DefaultValue="SW-Material" Mode="SWProperty" />
+      <Control Label="Mass" PropName="Masse" ApplyTo="Config" Type="TextBox" DefaultValue="SW-Mass" Mode="SWProperty" />
+      <Control Label="Creation Date" PropName="DateCréation" ApplyTo="Config" Type="TextBox" DefaultValue="SW-Created Date" Mode="SWProperty" />
+      <Control Label="Last Modification" PropName="Last change" ApplyTo="Config" Type="TextBox" DefaultValue="SW-Last Saved Date" Mode="SWProperty" />
+    </GroupBox>
+  </CPSheet>
+</CPTemplate>
