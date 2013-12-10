@@ -1,0 +1,15 @@
+* 0.1.1
+- add creative commons licence file
+fix: 
+- bad reference to the AX12 Dynamixel motor in the chest part.
+
+* 0.1:
+- First Open Source release
+- Use of configuration for symetric part
+- Reduction by 50% of the chest mass
+- Full MX actuation for the upper arms
+- Main hip actuation using MX-64 instead of MX-28
+- Reorganisation of the files
+
+* 0.0
+- First operational and complete version of Poppy
