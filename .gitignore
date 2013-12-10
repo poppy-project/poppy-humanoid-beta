@@ -1,1 +1,7 @@
 ~$*
+.gclf/
+.hg/
+*.igs
+STL/
+pictures/
+Inria-0168-144.jpg
