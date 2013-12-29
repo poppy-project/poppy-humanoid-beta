@@ -1,1 +1,6 @@
 ~$*
+.gclf/
+.hg/
+STL/
+pictures/
+*.f3d
