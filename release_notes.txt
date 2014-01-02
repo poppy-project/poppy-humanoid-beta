@@ -1,3 +1,11 @@
+* 0.1.2
+New part:
+- Add Connector HN07-N101_FR05-S101 part to fix the hip/leg assembly issue (MX-28 tot MX-64)
+fix: 
+- Thin wall (0.5 mm) on the chest part changed to 1.5mm.
+- Small changes in the upper arm horn holes dimensions
+- Change in the dimension of the thigh holes (hip motor). Previous design was not compatible with M2.5 bolts.
+
 * 0.1.1
 - add creative commons licence file
 fix: 
