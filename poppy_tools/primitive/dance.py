@@ -73,8 +73,6 @@ if __name__ == '__main__':
     with open('../configuration/poppy_config.json','r') as f:
         poppy_config = json.load(f)
 
-    poppy_config['controllers']['lower_body_controller']['port'] = "COM6"
-    poppy_config['controllers']['upper_body_controller']['port'] = "COM7"
 
     poppy = pypot.robot.from_config(poppy_config)
     poppy.start_sync()
