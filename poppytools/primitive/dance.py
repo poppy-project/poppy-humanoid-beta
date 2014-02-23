@@ -31,7 +31,7 @@ class SimpleBodyBeats(pypot.primitive.LoopPrimitive):
         amp = self._amplitude
         freq = self.frequency
 
-        self.poppy_robot.head_y.goal_position = sinus(amp, t, freq)
+        self.poppy_robot.head_y.goal_position = sinus(amp / 2.0, t, freq)
         self.poppy_robot.head_z.goal_position = sinus(amp / 2.0, t, freq / 2.0)
 
         self.poppy_robot.bust_x.goal_position = sinus(amp / 6.0, t, freq / 2.0) + sinus(amp / 6.0, t, freq / 4.0)
@@ -67,28 +67,31 @@ class SimpleBodyBeats(pypot.primitive.LoopPrimitive):
 
 if __name__ == '__main__':
     import time
-    import json
     import pypot.robot
 
-    with open('../configuration/poppy_config.json','r') as f:
-        poppy_config = json.load(f)
+    from poppytools.configuration.config import poppy_config
+    from poppytools.primitive.basic import StandPosition
 
-
+    # create the robot from the configuration file
     poppy = pypot.robot.from_config(poppy_config)
     poppy.start_sync()
 
     # Init robot position
-    poppy.compliant = False
+    poppy.attach_primitive(StandPosition(poppy),'stand')
+    poppy.stand.start()
+    poppy.stand.wait_to_stop()
 
-    for m in poppy.motors:
-        m.goto_position(0, 2)
-
-    time.sleep(2)
-    poppy.power_up()
-
+    # Create dancing primitive
     bpm = 100
     poppy.attach_primitive(SimpleBodyBeats(poppy, bpm), 'beats' )
-
     poppy.beats.start()
-    poppy.beats.wait_to_stop()
 
+    while True:
+        try:
+            time.sleep(1)
+
+        except KeyboardInterrupt:
+            poppy.beats.stop()
+            poppy.stand.start()
+            poppy.stand.wait_to_stop()
+            break

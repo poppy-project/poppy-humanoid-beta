@@ -1,11 +1,7 @@
-import json
-
 import pypot.robot
 
 import poppytools.primitive.basic as basic
-
-with open('../poppytools/configuration/poppy_config.json','r') as f:
-    poppy_config = json.load(f)
+from poppytools.configuration.config import poppy_config
 
 
 poppy = pypot.robot.from_config(poppy_config)
