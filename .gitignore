@@ -1,2 +1,4 @@
 *.pyc
 poppy_config.json
+poppytools.egg-info
+demo/demonstrator/moves

@@ -1,3 +1,4 @@
+import time
 import itertools
 
 import pypot.primitive
@@ -21,6 +22,8 @@ class InitRobot(pypot.primitive.Primitive):
 
         for m in self.robot.torso:
             m.pid = (6, 2, 0)
+
+        time.sleep(0.5)
 
 
 class StandPosition(InitRobot):
@@ -75,4 +78,6 @@ class SitPosition(pypot.primitive.Primitive):
 
         for m in motor_list:
             m.compliant = True
+
+        time.sleep(2)
 

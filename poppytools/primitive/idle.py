@@ -8,6 +8,7 @@ class UpperBodyIdleMotion(pypot.primitive.LoopPrimitive):
     def __init__(self, poppy_robot, freq):
         pypot.primitive.LoopPrimitive.__init__(self, poppy_robot, freq)
 
+        self.poppy_robot = poppy_robot
         self.body = [
                   Sinus(self.poppy_robot, 50, [self.poppy_robot.abs_z, ], amp=3, freq=0.2),
                   Sinus(self.poppy_robot, 50, [self.poppy_robot.abs_z, ], amp=0.8, freq=0.5),
@@ -55,11 +56,15 @@ class UpperBodyIdleMotion(pypot.primitive.LoopPrimitive):
 
         pypot.primitive.LoopPrimitive.stop(self)
 
+    def update(self):
+        pass
+
 
 class HeadIdleMotion(pypot.primitive.LoopPrimitive):
     def __init__(self, poppy_robot, freq):
         pypot.primitive.LoopPrimitive.__init__(self, poppy_robot, freq)
 
+        self.poppy_robot = poppy_robot
         self.head = [Sinus(self.poppy_robot, 50, [self.poppy_robot.head_z, ], amp=20, freq=0.05),
                   Sinus(self.poppy_robot, 50, [self.poppy_robot.head_z, ], amp=15, freq=0.01),
                   Sinus(self.poppy_robot, 50, [self.poppy_robot.head_y, ], amp=20, freq=0.04),
