@@ -1,5 +1,7 @@
 import numpy
 
+from collections import deque
+
 import pypot.primitive
 
 
@@ -31,11 +33,16 @@ class ArmsTurnCompliant(pypot.primitive.LoopPrimitive):
     def __init__(self, poppy_robot, freq):
         pypot.primitive.LoopPrimitive.__init__(self, poppy_robot, freq)
 
+        self.poppy_robot = poppy_robot
+
         for m in self.poppy_robot.arms:
             m.compliant = False
 
         for m in self.poppy_robot.arms:
             m.torque_limit = 20
+
+        self.left_arm_torque = deque([0], 0.2 * freq)
+        self.right_arm_torque = deque([0], 0.2 * freq)
 
     def update(self):
         self.left_arm_torque.append(numpy.max([abs(m.present_load) for m in self.poppy_robot.l_arm]))

@@ -38,7 +38,7 @@ cv2.waitKey(10)
 class RecorderApp(PyQt4.QtGui.QApplication):
     def __init__(self, argv):
         PyQt4.QtGui.QApplication.__init__(self, argv)
-        self.window =  PyQt4.uic.loadUi('recorder.ui')
+        self.window =  PyQt4.uic.loadUi('demonstrator.ui')
 
         self.window.record_button.pressed.connect(self.start_recording)
         self.window.stop_button.pressed.connect(self.stop_recording)
@@ -137,15 +137,20 @@ class RecorderApp(PyQt4.QtGui.QApplication):
                 self.rest = self.poppy.stand
                 continue
 
-            m = move.Move.load(os.path.join('moves','{}.move'.format(name)))
+            filename = os.path.join('moves','{}.json'.format(name))
+            print filename
 
-            bob = move.MovePlayer(self.poppy, m)
-            bob.play()
-            self.mp.append(bob)
+            with open(filename, 'r') as f:
+                m = move.Move.load(f)
+
+            motion_recorded = move.MovePlayer(self.poppy, m)
+
+            motion_recorded.start()
+            self.mp.append(motion_recorded)
 
     def stop_move(self):
-        for bob in self.mp:
-            bob.stop()
+        for motion_recorded in self.mp:
+            motion_recorded.stop()
         self.mp = []
 
         if self.poppy.walk.is_alive():
@@ -186,8 +191,8 @@ class RecorderApp(PyQt4.QtGui.QApplication):
 
 
     def scan_moves(self):
-        names = glob.glob(os.path.join('moves','*.move'))
-        names = map(lambda p: os.path.split(p)[1].replace('.move', ''), names)
+        names = glob.glob(os.path.join('moves','*.json'))
+        names = map(lambda p: os.path.split(p)[1].replace('.json', ''), names)
 
         names.append('stand up')
         names.append('walk')

@@ -31,17 +31,12 @@ class UpperBodyIdleMotion(pypot.primitive.LoopPrimitive):
                   Sinus(self.poppy_robot, 50, [self.poppy_robot.l_arm_z, ], amp=3, freq=0.2),
                   Sinus(self.poppy_robot, 50, [self.poppy_robot.r_arm_z, ], amp=3, freq=0.2, phase=78)
                 ]
-        self.left_arm_torque = deque([0], 0.2 * freq)
-        self.right_arm_torque = deque([0], 0.2 * freq)
 
     def start(self):
         pypot.primitive.LoopPrimitive.start(self)
 
         for m in self.poppy_robot.torso + self.poppy_robot.arms:
             m.compliant = False
-
-        for m in self.poppy_robot.arms:
-            m.torque_limit = 20
 
         [all_sinus.start() for all_sinus in self.body]
 

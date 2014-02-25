@@ -8,6 +8,7 @@ from collections import deque
 from poppytools.primitive.idle import UpperBodyIdleMotion, HeadIdleMotion
 from poppytools.sensor.vision import PSEyeCamera
 from poppytools.primitive.tracking import HeadTracking
+from poppytools.primitive.interaction import ArmsTurnCompliant
 
 class HeadOrShake(pypot.primitive.LoopPrimitive):
     def __init__(self, poppy_robot, freq, camera_id):
@@ -23,12 +24,14 @@ class HeadOrShake(pypot.primitive.LoopPrimitive):
         self.poppy_robot._head_tracking = HeadTracking(self.poppy_robot, self.freq, '_camera')
         self.poppy_robot._breathing = UpperBodyIdleMotion(self.poppy_robot, self.freq)
         self.poppy_robot._head_motion = HeadIdleMotion(self.poppy_robot, self.freq)
+        self.poppy_robot._arm_interaction = ArmsTurnCompliant(self.poppy_robot, self.freq)
         self.track = deque([False], 2 * self.freq)
 
         self.poppy_robot._camera.start()
         self.poppy_robot._head_tracking.start()
         self.poppy_robot._breathing.start()
         self.poppy_robot._head_motion.start()
+        self.poppy_robot._arm_interaction.start()
 
         pypot.primitive.LoopPrimitive.start(self)
 
@@ -41,11 +44,14 @@ class HeadOrShake(pypot.primitive.LoopPrimitive):
         self.poppy_robot._breathing.wait_to_stop()
         self.poppy_robot._head_motion.stop()
         self.poppy_robot._head_motion.wait_to_stop()
+        self.poppy_robot._arm_interaction.stop()
+        self.poppy_robot._arm_interaction.wait_to_stop()
 
         del self.poppy_robot._head_tracking
         del self.poppy_robot._camera
         del self.poppy_robot._breathing
         del self.poppy_robot._head_motion
+        del self.poppy_robot._arm_interaction
 
         pypot.primitive.LoopPrimitive.stop(self)
 
