@@ -18,12 +18,12 @@ class InitRobot(pypot.primitive.Primitive):
 
         # Reduce max torque to keep motor temperature low
         for m in self.robot.motors:
-            m.torque_limit = 70
+            m.torque_limit = 90
 
         for m in self.robot.torso:
             m.pid = (6, 2, 0)
 
-        time.sleep(0.5)
+        time.sleep(1)
 
 
 class StandPosition(InitRobot):

@@ -98,6 +98,8 @@ class RecorderApp(PyQt4.QtGui.QApplication):
             self.recorder.move.save(f)
         self.scan_moves()
 
+        self.rest = self.poppy.init
+
         self.rest.start()
         self.rest.wait_to_stop()
 
@@ -168,10 +170,10 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         self.window.play_button.setEnabled(True)
         self.window.stop_button_2.setEnabled(False)
 
-        self.rest.start()
-        self.rest.wait_to_stop()
+        # self.rest.start()
+        # self.rest.wait_to_stop()
 
-        time.sleep(0.5)
+        time.sleep(0.1)
 
 
     @property
