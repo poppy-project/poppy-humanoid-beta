@@ -56,6 +56,7 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         self.poppy.start_sync()
 
         self.poppy.attach_primitive(InitRobot(self.poppy), 'init')
+        self.poppy.attach_primitive(SmartCompliance(self.poppy,50), 'smart_compliance')
         self.poppy.attach_primitive(StandPosition(self.poppy), 'stand')
         self.poppy.attach_primitive(ArmsCompliant(self.poppy, 10), 'arms_compliant')
         self.poppy.attach_primitive(WalkingGaitFromCPGFile(self.poppy), 'walk')
@@ -78,8 +79,7 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         motors = sum([getattr(self.poppy, name) for name in self.motor_group], [])
 
         if self.window.compliant_box.checkState():
-            for m in motors:
-                m.compliant = True
+            self.poppy.smart_compliance.start()
 
         time.sleep(0.5)
 
@@ -97,6 +97,7 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         with open(filename, 'w') as f:
             self.recorder.move.save(f)
         self.scan_moves()
+        self.poppy.smart_compliance.stop()
 
         self.rest = self.poppy.init
 
@@ -115,6 +116,10 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         for name in names:
             if name == 'walk':
                 self.poppy.walk.start()
+                continue
+
+            if name == 'smart compliance':
+                self.poppy.smart_compliance.start()
                 continue
 
             elif name == 'compliant arms':
@@ -200,6 +205,7 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         names.append('walk')
         names.append('compliant arms')
         names.append('arm copy')
+        names.append('smart compliance')
         names.append('head tracking')
         names.append('sit')
 

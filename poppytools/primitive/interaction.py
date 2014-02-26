@@ -4,6 +4,35 @@ from collections import deque
 
 import pypot.primitive
 
+class SmartCompliance(pypot.primitive.LoopPrimitive):
+    def __init__(self, robot, freq):
+        pypot.primitive.LoopPrimitive.__init__(self,robot, freq)
+
+        self.range_angle = []
+        for m in self.robot.motors:
+            self.range_angle.append(max(m.angle_limit) - min(m.angle_limit))
+
+    def update(self):
+        for i,m in enumerate(self.robot.motors):
+            angle_limit = numpy.asarray(m.angle_limit) if m.direct else -1 * numpy.asarray(m.angle_limit)
+
+            if min(angle_limit) > m.present_position:
+                m.compliant = False
+                m.torque_limit = 90
+                m.goal_position = min(angle_limit) + numpy.sign(min(angle_limit))* min(3, 5.0/100.0 * self.range_angle[i])
+
+            elif m.present_position > max(angle_limit):
+                m.compliant = False
+                m.torque_limit = 90
+                m.goal_position = max(angle_limit)- numpy.sign(max(angle_limit))* min(3, 5.0/100.0 * self.range_angle[i])
+
+            elif not( min(angle_limit)-numpy.sign(min(angle_limit))*2 < m.present_position< max(angle_limit)- numpy.sign(max(angle_limit))*2):
+                m.compliant = False
+                m.goal_position = m.present_position
+                m.torque_limit = 5
+
+            else:
+                m.compliant = True
 
 class ArmsCompliant(pypot.primitive.LoopPrimitive):
     def start(self):
