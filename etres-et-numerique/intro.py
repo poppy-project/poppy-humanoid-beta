@@ -11,8 +11,8 @@ MOVES = ['intro',
         'mvt_sable',
         'passage_dos',
         'mvt_petitpied',
-        'mvt_mainfoetus',
         'mvt_retournement',
+        'mvt_mainfoetus',
         'passage_4pattes',
         '4patte_chute']
 
@@ -36,7 +36,7 @@ class GroundMotionIntro(pypot.primitive.Primitive):
             self.run_motion(mvt)
 
     def teardown(self):
-        self.poppy_robot.attach_primitive(SmartCompliance(self.poppy_robot), 'smart_compliance')
+        self.poppy_robot.attach_primitive(SmartCompliance(self.poppy_robot,50), 'smart_compliance')
         self.poppy_robot.smart_compliance.start()
 
 
@@ -47,8 +47,10 @@ class GroundMotionIntro(pypot.primitive.Primitive):
         del init
 
     def run_motion(self,mvt):
-        mvt.start()
-        mvt.wait_to_stop()
+        mvt_player = move.MovePlayer(self.poppy_robot, mvt)
+        mvt_player.start()
+        mvt_player.wait_to_stop()
+        del mvt_player
 
 
     def load_move(self, mvt_name):
@@ -75,8 +77,3 @@ class InitMove(pypot.primitive.Primitive):
 
     def teardown(self):
         self.poppy_robot.power_up()
-
-
-
-
-
