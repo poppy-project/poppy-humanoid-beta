@@ -25,9 +25,9 @@ class GroundMotionIntro(pypot.primitive.Primitive):
         self.move_list = move_list
         self.move_path = move_path
 
-    # def setup(self):
-    #     for m in self.poppy_robot.motors:
-    #         m.compliant = False
+    def setup(self):
+        self.safe_prim = ProtectPoppy(self.poppy_robot)
+        self.start()
 
     def run(self):
         for mvt_name in self.move_list:
@@ -36,6 +36,10 @@ class GroundMotionIntro(pypot.primitive.Primitive):
             self.run_motion(mvt)
 
     def teardown(self):
+        self.safe_prim.stop()
+        self.safe_prim.wait_to_stop()
+        del self.safe_prim
+
         self.poppy_robot.attach_primitive(SmartCompliance(self.poppy_robot,50), 'smart_compliance')
         self.poppy_robot.smart_compliance.start()
 
@@ -76,4 +80,37 @@ class InitMove(pypot.primitive.Primitive):
         time.sleep(self.duration)
 
     def teardown(self):
-        self.poppy_robot.power_up()
+        for m in self.poppy_robot.motors:
+            m.moving_speed = 0
+
+
+TORQUE_MIN = 20
+TORQUE_MAX = 95
+MAX_ERROR = 10
+
+class ProtectPoppy(pypot.primitive.LoopPrimitive):
+    def __init__(self, poppy_robot, freq=20):
+        pypot.primitive.LoopPrimitive.__init__(self, poppy_robot, freq)
+        self.poppy_robot = poppy_robot
+
+    def update(self):
+        for m in self.poppy_robot.motors:
+            self.adjust_torque(m)
+
+        # print 'torque:', [m.torque_limit for m in self.poppy_robot.motors]
+
+    def adjust_torque(self, motor):
+        target = motor.goal_position
+        pos = motor.present_position
+        dist = abs(target - pos)
+
+        if dist > MAX_ERROR:
+            motor.torque_limit = TORQUE_MAX
+        else:
+            motor.torque_limit = TORQUE_MIN + dist/MAX_ERROR * (TORQUE_MAX - TORQUE_MIN)
+
+
+    def teardown(self):
+        for m in self.poppy_robot.motors:
+            m.torque_limit = TORQUE_MAX
+
