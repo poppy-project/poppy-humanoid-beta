@@ -14,7 +14,7 @@ import pypot.primitive.move as move
 
 from poppytools.configuration.config import poppy_config
 from poppytools.primitive.basic import InitRobot, SitPosition, StandPosition
-from poppytools.primitive.interaction import ArmsCompliant, ArmsCopyMotion
+from poppytools.primitive.interaction import ArmsCompliant, ArmsCopyMotion, SmartCompliance
 from poppytools.primitive.walking import WalkingGaitFromCPGFile
 from poppytools.behavior.idle import HeadOrShake
 
@@ -79,7 +79,8 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         motors = sum([getattr(self.poppy, name) for name in self.motor_group], [])
 
         if self.window.compliant_box.checkState():
-            self.poppy.smart_compliance.start()
+            for m in motors:
+                m.compliant = True
 
         time.sleep(0.5)
 
@@ -97,7 +98,7 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         with open(filename, 'w') as f:
             self.recorder.move.save(f)
         self.scan_moves()
-        self.poppy.smart_compliance.stop()
+        # self.poppy.smart_compliance.stop()
 
         self.rest = self.poppy.init
 
