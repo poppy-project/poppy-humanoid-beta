@@ -4,7 +4,7 @@ import numpy
 from scipy import interpolate
 
 t_cycle = numpy.linspace(0, 1, num=10, endpoint=False)
-gain_output = 0.5
+gain_output = 0.6
 
 hip_y_joint = -1 * numpy.array([32, 31, 26, 15, 3, -6, -12, -4, 27, 30])
 knee_joint = numpy.array([0, 17, 19, 10, 1, 8, 30, 62, 60, 25])
