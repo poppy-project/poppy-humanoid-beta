@@ -27,7 +27,7 @@ class GroundMotionIntro(pypot.primitive.Primitive):
 
     def setup(self):
         self.safe_prim = ProtectPoppy(self.poppy_robot)
-        self.start()
+        self.safe_prim.start()
 
     def run(self):
         for mvt_name in self.move_list:
@@ -96,8 +96,6 @@ class ProtectPoppy(pypot.primitive.LoopPrimitive):
     def update(self):
         for m in self.poppy_robot.motors:
             self.adjust_torque(m)
-
-        # print 'torque:', [m.torque_limit for m in self.poppy_robot.motors]
 
     def adjust_torque(self, motor):
         target = motor.goal_position
