@@ -18,21 +18,22 @@ class SmartCompliance(pypot.primitive.LoopPrimitive):
 
             if min(angle_limit) > m.present_position:
                 m.compliant = False
-                m.torque_limit = 90
+                m.torque_limit = 70
                 m.goal_position = min(angle_limit) + numpy.sign(min(angle_limit))* min(3, 5.0/100.0 * self.range_angle[i])
 
             elif m.present_position > max(angle_limit):
                 m.compliant = False
-                m.torque_limit = 90
+                m.torque_limit = 70
                 m.goal_position = max(angle_limit)- numpy.sign(max(angle_limit))* min(3, 5.0/100.0 * self.range_angle[i])
 
-            elif not( min(angle_limit)-numpy.sign(min(angle_limit))*2 < m.present_position< max(angle_limit)- numpy.sign(max(angle_limit))*2):
-                m.compliant = False
-                m.goal_position = m.present_position
-                m.torque_limit = 5
+            # elif not( min(angle_limit)-numpy.sign(min(angle_limit))*2 < m.present_position< max(angle_limit)- numpy.sign(max(angle_limit))*2):
+            #     m.compliant = False
+            #     m.goal_position = m.present_position
+            #     m.torque_limit = 5
 
             else:
                 m.compliant = True
+                m.torque_limit = 90
 
 class ArmsCompliant(pypot.primitive.LoopPrimitive):
     def start(self):
