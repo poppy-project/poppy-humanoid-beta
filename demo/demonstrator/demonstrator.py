@@ -79,10 +79,10 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         motors = sum([getattr(self.poppy, name) for name in self.motor_group], [])
 
         if self.window.compliant_box.checkState():
-            for m in motors:
-                m.compliant = True
+            self.poppy.attach_primitive(SmartCompliance(self.poppy, motors, 50), 'recorder_compliance')
+            self.poppy.recorder_compliance.start()
 
-        time.sleep(0.5)
+        time.sleep(0.2)
 
         self.recorder = move.MoveRecorder(self.poppy, 50, motors)
         self.recorder.start()
@@ -98,10 +98,13 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         with open(filename, 'w') as f:
             self.recorder.move.save(f)
         self.scan_moves()
-        # self.poppy.smart_compliance.stop()
+
+        self.poppy.recorder_compliance.stop()
+        self.poppy.recorder_compliance.wait_to_stop()
+
+        del self.poppy.recorder_compliance
 
         self.rest = self.poppy.init
-
         self.rest.start()
         self.rest.wait_to_stop()
 
