@@ -219,7 +219,7 @@ if __name__ == '__main__':
 
     '''
     import json
-    poppy_config['controllers']['lower_body_controller']['port'] = "COM31"
+    poppy_config['controllers']['lower_body_controller']['port'] = "COM7"
     poppy_config['controllers']['upper_body_controller']['port'] = "COM9"
 
     with open('poppy_config.json','w') as f:
