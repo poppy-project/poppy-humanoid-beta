@@ -5,41 +5,34 @@ from collections import deque
 import pypot.primitive
 
 class SmartCompliance(pypot.primitive.LoopPrimitive):
-    def __init__(self, poppy_robot, freq):
+    def __init__(self, poppy_robot, freq=50):
         pypot.primitive.LoopPrimitive.__init__(self,poppy_robot, freq)
         self.poppy_robot = poppy_robot
 
-        self.range_angle = []
-        for m in self.poppy_robot.motors:
-            self.range_angle.append(max(m.angle_limit) - min(m.angle_limit))
+    def setup(self):
+        self.compute_angle_limit()
 
     def update(self):
         for i,m in enumerate(self.poppy_robot.motors):
-            angle_limit = numpy.asarray(m.angle_limit) if m.direct else -1 * numpy.asarray(m.angle_limit)
-
-            if min(angle_limit) > m.present_position:
+            angle_limit = self.angles[i]
+            if (min(angle_limit) > m.present_position) or (m.present_position > max(angle_limit)):
                 m.compliant = False
-                m.torque_limit = 70
-                m.goal_position = min(angle_limit) + numpy.sign(min(angle_limit))* min(3, 5.0/100.0 * self.range_angle[i])
-
-            elif m.present_position > max(angle_limit):
-                m.compliant = False
-                m.torque_limit = 70
-                m.goal_position = max(angle_limit)- numpy.sign(max(angle_limit))* min(3, 5.0/100.0 * self.range_angle[i])
-
-            # elif not( min(angle_limit)-numpy.sign(min(angle_limit))*2 < m.present_position< max(angle_limit)- numpy.sign(max(angle_limit))*2):
-            #     m.compliant = False
-            #     m.goal_position = m.present_position
-            #     m.torque_limit = 5
-
             else:
                 m.compliant = True
-                m.torque_limit = 90
+    
+    def compute_angle_limit(self):
+        self.angles = []
+        for m in self.poppy_robot.motors:
+            ang = numpy.asarray(m.angle_limit) if m.direct else -1 * numpy.asarray(m.angle_limit)
+            ang = ang - m.offset
+            self.angles.append(ang)
+            print m.name, ang
 
     def teardown(self):
         for m in self.poppy_robot.motors:
             m.torque_limit = 100
             m.compliant = True
+
 
 
 class ArmsCompliant(pypot.primitive.LoopPrimitive):
