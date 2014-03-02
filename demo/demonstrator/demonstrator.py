@@ -56,7 +56,7 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         self.poppy.start_sync()
 
         self.poppy.attach_primitive(InitRobot(self.poppy), 'init')
-        self.poppy.attach_primitive(SmartCompliance(self.poppy,50), 'smart_compliance')
+        self.poppy.attach_primitive(SmartCompliance(self.poppy, self.poppy.motors ,50), 'smart_compliance')
         self.poppy.attach_primitive(StandPosition(self.poppy), 'stand')
         self.poppy.attach_primitive(ArmsCompliant(self.poppy, 10), 'arms_compliant')
         self.poppy.attach_primitive(WalkingGaitFromCPGFile(self.poppy), 'walk')

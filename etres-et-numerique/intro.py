@@ -40,7 +40,7 @@ class GroundMotionIntro(pypot.primitive.Primitive):
         self.safe_prim.wait_to_stop()
         del self.safe_prim
 
-        self.poppy_robot.attach_primitive(SmartCompliance(self.poppy_robot,50), 'smart_compliance')
+        self.poppy_robot.attach_primitive(SmartCompliance(self.poppy_robot, self.poppy_robot.motors,50), 'smart_compliance')
         self.poppy_robot.smart_compliance.start()
 
 
