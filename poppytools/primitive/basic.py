@@ -72,7 +72,7 @@ class SitPosition(pypot.primitive.Primitive):
         for m in self.robot.torso:
             m.goal_position = 0
 
-        self.robot.abs_y.goal_position = 7
+        self.robot.abs_y.goal_position = 0
 
         motor_list = [self.robot.l_knee_y, self.robot.l_ankle_y, self.robot.r_knee_y, self.robot.r_ankle_y]
 

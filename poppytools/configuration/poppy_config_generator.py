@@ -196,14 +196,14 @@ poppy_config['motors'] = {
       "type": "MX-28",
       "orientation": "direct",
       "offset": 90,
-      "angle_limit": [-140, 155 ],
+      "angle_limit": [-120, 155 ],
     },
     "r_shoulder_y": {
       "id": 51,
       "type": "MX-28",
       "orientation": "indirect",
       "offset": 90,
-      "angle_limit": [-155, 140 ],
+      "angle_limit": [-155, 120 ],
     },
 }
 
@@ -219,8 +219,8 @@ if __name__ == '__main__':
 
     '''
     import json
-    poppy_config['controllers']['lower_body_controller']['port'] = "COM7"
-    poppy_config['controllers']['upper_body_controller']['port'] = "COM9"
+    poppy_config['controllers']['lower_body_controller']['port'] = "COM8"
+    poppy_config['controllers']['upper_body_controller']['port'] = "COM7"
 
     with open('poppy_config.json','w') as f:
         json.dump(poppy_config, f, indent=2)

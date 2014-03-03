@@ -25,7 +25,7 @@ class WalkingGaitFromCPGFile(pypot.primitive.LoopPrimitive):
         self.generate_loop_motion()
 
 
-    def init_loop_primitive(self):
+    def setup(self):
         self.robot.l_hip_z.goal_position = 0
         self.robot.l_hip_x.goal_position = 1
         self.robot.r_hip_z.goal_position = 0
