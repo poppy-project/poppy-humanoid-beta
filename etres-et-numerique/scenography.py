@@ -272,10 +272,11 @@ class TangoScene(pypot.primitive.LoopPrimitive):
 
 
     def setup(self):
+        self.poppy_robot.arms_compliance.start()
+        
         self.poppy_robot.stand.start()
         self.poppy_robot.stand.wait_to_stop()
 
-        self.poppy_robot.arms_compliance.start()
 
         for m in self.poppy_robot.torso:
             m.torque_limit = 60
