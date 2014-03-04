@@ -33,6 +33,8 @@ class WalkingGaitFromCPGFile(pypot.primitive.LoopPrimitive):
 
         self.robot_configuration()
 
+        self.robot.goto_position(self.cycle_motors_orders[0], self.cycle_period / 2.0, wait=True)
+
 
     def update(self):
         self.current_period = 1.0 / numpy.mean(self.recent_update_frequencies)

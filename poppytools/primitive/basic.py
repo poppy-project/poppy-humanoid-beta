@@ -27,8 +27,10 @@ class InitRobot(pypot.primitive.Primitive):
 
 
 class StandPosition(InitRobot):
-    def run(self):
+    def setup(self):
         InitRobot.run(self)
+
+    def run(self):
 
         # Goto to position 0 on all motors
         self.robot.goto_position(dict(zip((m.name for m in self.robot.motors),
@@ -54,6 +56,7 @@ class StandPosition(InitRobot):
                                 3,
                                 wait=True)
 
+    def teardown(self):
         # Restore the motor speed
         self.robot.power_max()
 
