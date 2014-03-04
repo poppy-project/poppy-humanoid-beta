@@ -1,0 +1,3065 @@
+{
+  "position": [
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.36, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.310000000000002
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.36, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.310000000000002
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.590000000000003, 
+      "l_shoulder_y": -10.400000000000006
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.36, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.400000000000006
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.36, 
+      "l_shoulder_x": 12.590000000000003, 
+      "l_shoulder_y": -10.400000000000006
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.400000000000006
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.36, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.400000000000006
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.480000000000004
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.36, 
+      "l_shoulder_x": 12.590000000000003, 
+      "l_shoulder_y": -10.480000000000004
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.36, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.569999999999993
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.36, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.569999999999993
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.569999999999993
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.569999999999993
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.569999999999993
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.659999999999997
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.659999999999997
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.36, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.659999999999997
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.590000000000003, 
+      "l_shoulder_y": -10.75
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.75
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.590000000000003, 
+      "l_shoulder_y": -10.75
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.36, 
+      "l_shoulder_x": 12.590000000000003, 
+      "l_shoulder_y": -10.75
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.75
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.590000000000003, 
+      "l_shoulder_y": -10.75
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.36, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.840000000000003
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.840000000000003
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.36, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.75
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.840000000000003
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.590000000000003, 
+      "l_shoulder_y": -10.75
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.36, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.75
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.840000000000003
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.75
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.590000000000003, 
+      "l_shoulder_y": -10.840000000000003
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.840000000000003
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.840000000000003
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.840000000000003
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.840000000000003
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.840000000000003
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.590000000000003, 
+      "l_shoulder_y": -10.840000000000003
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.36, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.840000000000003
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.840000000000003
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.840000000000003
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.840000000000003
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -10.840000000000003
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.769999999999996, 
+      "l_shoulder_y": -10.840000000000003
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.86, 
+      "l_shoulder_y": -10.840000000000003
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.950000000000003, 
+      "l_shoulder_y": -10.920000000000002
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 12.950000000000003, 
+      "l_shoulder_y": -10.920000000000002
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.45, 
+      "l_shoulder_x": 13.030000000000001, 
+      "l_shoulder_y": -10.920000000000002
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.54, 
+      "l_shoulder_x": 13.299999999999997, 
+      "l_shoulder_y": -11.010000000000005
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.54, 
+      "l_shoulder_x": 13.379999999999995, 
+      "l_shoulder_y": -11.099999999999994
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.54, 
+      "l_shoulder_x": 13.560000000000002, 
+      "l_shoulder_y": -11.189999999999998
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.54, 
+      "l_shoulder_x": 13.739999999999995, 
+      "l_shoulder_y": -11.269999999999996
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.54, 
+      "l_shoulder_x": 14.0, 
+      "l_shoulder_y": -11.450000000000003
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.54, 
+      "l_shoulder_x": 14.180000000000007, 
+      "l_shoulder_y": -11.540000000000006
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.63, 
+      "l_shoulder_x": 14.439999999999998, 
+      "l_shoulder_y": -11.629999999999995
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.63, 
+      "l_shoulder_x": 14.700000000000003, 
+      "l_shoulder_y": -11.799999999999997
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -41.63, 
+      "l_shoulder_x": 14.879999999999995, 
+      "l_shoulder_y": -11.89
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.71, 
+      "l_shoulder_x": 15.230000000000004, 
+      "l_shoulder_y": -12.150000000000006
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.71, 
+      "l_shoulder_x": 15.489999999999995, 
+      "l_shoulder_y": -12.329999999999998
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.71, 
+      "l_shoulder_x": 15.760000000000005, 
+      "l_shoulder_y": -12.510000000000005
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.71, 
+      "l_shoulder_x": 16.11, 
+      "l_shoulder_y": -12.86
+    }, 
+    {
+      "l_elbow_y": -24.75, 
+      "l_arm_z": -41.8, 
+      "l_shoulder_x": 16.370000000000005, 
+      "l_shoulder_y": -13.120000000000005
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.8, 
+      "l_shoulder_x": 16.730000000000004, 
+      "l_shoulder_y": -13.379999999999995
+    }, 
+    {
+      "l_elbow_y": -24.75, 
+      "l_arm_z": -41.8, 
+      "l_shoulder_x": 17.159999999999997, 
+      "l_shoulder_y": -13.739999999999995
+    }, 
+    {
+      "l_elbow_y": -24.75, 
+      "l_arm_z": -41.98, 
+      "l_shoulder_x": 17.78, 
+      "l_shoulder_y": -14.090000000000003
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -41.98, 
+      "l_shoulder_x": 18.310000000000002, 
+      "l_shoulder_y": -14.349999999999994
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -42.07, 
+      "l_shoulder_x": 18.840000000000003, 
+      "l_shoulder_y": -14.700000000000003
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -42.15, 
+      "l_shoulder_x": 19.540000000000006, 
+      "l_shoulder_y": -15.049999999999997
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -42.24, 
+      "l_shoulder_x": 20.239999999999995, 
+      "l_shoulder_y": -15.319999999999993
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -42.42, 
+      "l_shoulder_x": 20.950000000000003, 
+      "l_shoulder_y": -15.760000000000005
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -42.42, 
+      "l_shoulder_x": 21.650000000000006, 
+      "l_shoulder_y": -16.11
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 22.349999999999994, 
+      "l_shoulder_y": -16.459999999999994
+    }, 
+    {
+      "l_elbow_y": -24.48, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 23.230000000000004, 
+      "l_shoulder_y": -16.810000000000002
+    }, 
+    {
+      "l_elbow_y": -24.48, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 24.11, 
+      "l_shoulder_y": -17.159999999999997
+    }, 
+    {
+      "l_elbow_y": -24.4, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 24.810000000000002, 
+      "l_shoulder_y": -17.599999999999994
+    }, 
+    {
+      "l_elbow_y": -24.4, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 25.689999999999998, 
+      "l_shoulder_y": -18.040000000000006
+    }, 
+    {
+      "l_elbow_y": -24.4, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 26.659999999999997, 
+      "l_shoulder_y": -18.75
+    }, 
+    {
+      "l_elbow_y": -24.4, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 27.630000000000003, 
+      "l_shoulder_y": -19.36
+    }, 
+    {
+      "l_elbow_y": -24.4, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 28.42, 
+      "l_shoulder_y": -20.150000000000006
+    }, 
+    {
+      "l_elbow_y": -24.4, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 29.380000000000003, 
+      "l_shoulder_y": -20.86
+    }, 
+    {
+      "l_elbow_y": -24.4, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 30.35, 
+      "l_shoulder_y": -21.909999999999997
+    }, 
+    {
+      "l_elbow_y": -24.4, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 31.14, 
+      "l_shoulder_y": -22.879999999999995
+    }, 
+    {
+      "l_elbow_y": -24.48, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 32.02, 
+      "l_shoulder_y": -24.019999999999996
+    }, 
+    {
+      "l_elbow_y": -24.48, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 32.9, 
+      "l_shoulder_y": -25.25
+    }, 
+    {
+      "l_elbow_y": -24.57, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 33.69, 
+      "l_shoulder_y": -26.4
+    }, 
+    {
+      "l_elbow_y": -24.66, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 34.57, 
+      "l_shoulder_y": -27.71
+    }, 
+    {
+      "l_elbow_y": -24.75, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 35.27, 
+      "l_shoulder_y": -28.950000000000003
+    }, 
+    {
+      "l_elbow_y": -24.92, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 36.15, 
+      "l_shoulder_y": -30.53
+    }, 
+    {
+      "l_elbow_y": -25.01, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 36.86, 
+      "l_shoulder_y": -31.93
+    }, 
+    {
+      "l_elbow_y": -25.19, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 37.56, 
+      "l_shoulder_y": -33.43
+    }, 
+    {
+      "l_elbow_y": -25.36, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 38.09, 
+      "l_shoulder_y": -34.92
+    }, 
+    {
+      "l_elbow_y": -25.63, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 38.62, 
+      "l_shoulder_y": -36.51
+    }, 
+    {
+      "l_elbow_y": -25.8, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 38.97, 
+      "l_shoulder_y": -38.0
+    }, 
+    {
+      "l_elbow_y": -26.07, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 39.32, 
+      "l_shoulder_y": -39.49
+    }, 
+    {
+      "l_elbow_y": -26.33, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 39.49, 
+      "l_shoulder_y": -40.99
+    }, 
+    {
+      "l_elbow_y": -26.51, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 39.49, 
+      "l_shoulder_y": -42.48
+    }, 
+    {
+      "l_elbow_y": -26.68, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 39.58, 
+      "l_shoulder_y": -43.98
+    }, 
+    {
+      "l_elbow_y": -26.95, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 39.58, 
+      "l_shoulder_y": -45.3
+    }, 
+    {
+      "l_elbow_y": -27.21, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 39.49, 
+      "l_shoulder_y": -46.79
+    }, 
+    {
+      "l_elbow_y": -27.38, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 39.41, 
+      "l_shoulder_y": -48.29
+    }, 
+    {
+      "l_elbow_y": -27.65, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 39.23, 
+      "l_shoulder_y": -49.52
+    }, 
+    {
+      "l_elbow_y": -27.91, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 38.97, 
+      "l_shoulder_y": -50.48
+    }, 
+    {
+      "l_elbow_y": -28.26, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 38.44, 
+      "l_shoulder_y": -51.45
+    }, 
+    {
+      "l_elbow_y": -28.53, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 37.82, 
+      "l_shoulder_y": -52.51
+    }, 
+    {
+      "l_elbow_y": -28.97, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 37.12, 
+      "l_shoulder_y": -53.38
+    }, 
+    {
+      "l_elbow_y": -29.41, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 36.33, 
+      "l_shoulder_y": -54.18
+    }, 
+    {
+      "l_elbow_y": -29.76, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 35.54, 
+      "l_shoulder_y": -55.05
+    }, 
+    {
+      "l_elbow_y": -30.29, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 34.75, 
+      "l_shoulder_y": -55.76
+    }, 
+    {
+      "l_elbow_y": -30.81, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 34.04, 
+      "l_shoulder_y": -56.37
+    }, 
+    {
+      "l_elbow_y": -31.43, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 33.34, 
+      "l_shoulder_y": -56.99
+    }, 
+    {
+      "l_elbow_y": -32.84, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 31.85, 
+      "l_shoulder_y": -58.129999999999995
+    }, 
+    {
+      "l_elbow_y": -33.71, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 31.14, 
+      "l_shoulder_y": -58.57
+    }, 
+    {
+      "l_elbow_y": -34.59, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 30.35, 
+      "l_shoulder_y": -59.010000000000005
+    }, 
+    {
+      "l_elbow_y": -34.59, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 30.35, 
+      "l_shoulder_y": -59.010000000000005
+    }, 
+    {
+      "l_elbow_y": -35.65, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 29.47, 
+      "l_shoulder_y": -59.45
+    }, 
+    {
+      "l_elbow_y": -37.76, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 27.89, 
+      "l_shoulder_y": -59.980000000000004
+    }, 
+    {
+      "l_elbow_y": -38.81, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 27.1, 
+      "l_shoulder_y": -60.15
+    }, 
+    {
+      "l_elbow_y": -40.13, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 26.310000000000002, 
+      "l_shoulder_y": -60.33
+    }, 
+    {
+      "l_elbow_y": -41.54, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 25.430000000000007, 
+      "l_shoulder_y": -60.42
+    }, 
+    {
+      "l_elbow_y": -42.95, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 24.549999999999997, 
+      "l_shoulder_y": -60.42
+    }, 
+    {
+      "l_elbow_y": -44.35, 
+      "l_arm_z": -42.42, 
+      "l_shoulder_x": 23.67, 
+      "l_shoulder_y": -60.42
+    }, 
+    {
+      "l_elbow_y": -45.85, 
+      "l_arm_z": -42.33, 
+      "l_shoulder_x": 22.700000000000003, 
+      "l_shoulder_y": -60.42
+    }, 
+    {
+      "l_elbow_y": -47.43, 
+      "l_arm_z": -42.24, 
+      "l_shoulder_x": 21.739999999999995, 
+      "l_shoulder_y": -60.33
+    }, 
+    {
+      "l_elbow_y": -48.84, 
+      "l_arm_z": -42.24, 
+      "l_shoulder_x": 20.86, 
+      "l_shoulder_y": -60.239999999999995
+    }, 
+    {
+      "l_elbow_y": -50.15, 
+      "l_arm_z": -42.24, 
+      "l_shoulder_x": 20.069999999999993, 
+      "l_shoulder_y": -60.239999999999995
+    }, 
+    {
+      "l_elbow_y": -51.65, 
+      "l_arm_z": -42.24, 
+      "l_shoulder_x": 19.189999999999998, 
+      "l_shoulder_y": -60.07
+    }, 
+    {
+      "l_elbow_y": -52.79, 
+      "l_arm_z": -42.24, 
+      "l_shoulder_x": 18.400000000000006, 
+      "l_shoulder_y": -59.980000000000004
+    }, 
+    {
+      "l_elbow_y": -54.11, 
+      "l_arm_z": -42.33, 
+      "l_shoulder_x": 17.599999999999994, 
+      "l_shoulder_y": -59.8
+    }, 
+    {
+      "l_elbow_y": -55.34, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 16.900000000000006, 
+      "l_shoulder_y": -59.54
+    }, 
+    {
+      "l_elbow_y": -56.48, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 16.200000000000003, 
+      "l_shoulder_y": -59.269999999999996
+    }, 
+    {
+      "l_elbow_y": -57.71, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 15.579999999999998, 
+      "l_shoulder_y": -59.010000000000005
+    }, 
+    {
+      "l_elbow_y": -58.95, 
+      "l_arm_z": -42.68, 
+      "l_shoulder_x": 14.879999999999995, 
+      "l_shoulder_y": -58.57
+    }, 
+    {
+      "l_elbow_y": -60.09, 
+      "l_arm_z": -42.86, 
+      "l_shoulder_x": 14.349999999999994, 
+      "l_shoulder_y": -58.129999999999995
+    }, 
+    {
+      "l_elbow_y": -61.14, 
+      "l_arm_z": -43.12, 
+      "l_shoulder_x": 13.739999999999995, 
+      "l_shoulder_y": -57.6
+    }, 
+    {
+      "l_elbow_y": -62.11, 
+      "l_arm_z": -43.38, 
+      "l_shoulder_x": 13.299999999999997, 
+      "l_shoulder_y": -57.16
+    }, 
+    {
+      "l_elbow_y": -63.08, 
+      "l_arm_z": -43.74, 
+      "l_shoulder_x": 12.680000000000007, 
+      "l_shoulder_y": -56.64
+    }, 
+    {
+      "l_elbow_y": -63.87, 
+      "l_arm_z": -44.09, 
+      "l_shoulder_x": 12.239999999999995, 
+      "l_shoulder_y": -56.2
+    }, 
+    {
+      "l_elbow_y": -64.75, 
+      "l_arm_z": -44.44, 
+      "l_shoulder_x": 11.709999999999994, 
+      "l_shoulder_y": -55.76
+    }, 
+    {
+      "l_elbow_y": -65.54, 
+      "l_arm_z": -44.88, 
+      "l_shoulder_x": 11.189999999999998, 
+      "l_shoulder_y": -55.32
+    }, 
+    {
+      "l_elbow_y": -66.24, 
+      "l_arm_z": -45.23, 
+      "l_shoulder_x": 10.659999999999997, 
+      "l_shoulder_y": -54.97
+    }, 
+    {
+      "l_elbow_y": -66.95, 
+      "l_arm_z": -45.67, 
+      "l_shoulder_x": 10.129999999999995, 
+      "l_shoulder_y": -54.44
+    }, 
+    {
+      "l_elbow_y": -67.56, 
+      "l_arm_z": -46.11, 
+      "l_shoulder_x": 9.599999999999994, 
+      "l_shoulder_y": -54.0
+    }, 
+    {
+      "l_elbow_y": -68.26, 
+      "l_arm_z": -46.55, 
+      "l_shoulder_x": 8.989999999999995, 
+      "l_shoulder_y": -53.47
+    }, 
+    {
+      "l_elbow_y": -68.88, 
+      "l_arm_z": -46.99, 
+      "l_shoulder_x": 8.459999999999994, 
+      "l_shoulder_y": -52.95
+    }, 
+    {
+      "l_elbow_y": -69.41, 
+      "l_arm_z": -47.43, 
+      "l_shoulder_x": 7.849999999999994, 
+      "l_shoulder_y": -52.51
+    }, 
+    {
+      "l_elbow_y": -70.02, 
+      "l_arm_z": -47.96, 
+      "l_shoulder_x": 7.230000000000004, 
+      "l_shoulder_y": -51.98
+    }, 
+    {
+      "l_elbow_y": -70.55, 
+      "l_arm_z": -48.4, 
+      "l_shoulder_x": 6.6200000000000045, 
+      "l_shoulder_y": -51.36
+    }, 
+    {
+      "l_elbow_y": -70.99, 
+      "l_arm_z": -48.92, 
+      "l_shoulder_x": 6.0, 
+      "l_shoulder_y": -50.84
+    }, 
+    {
+      "l_elbow_y": -71.52, 
+      "l_arm_z": -49.36, 
+      "l_shoulder_x": 5.3799999999999955, 
+      "l_shoulder_y": -50.31
+    }, 
+    {
+      "l_elbow_y": -72.13, 
+      "l_arm_z": -49.8, 
+      "l_shoulder_x": 4.769999999999996, 
+      "l_shoulder_y": -49.69
+    }, 
+    {
+      "l_elbow_y": -72.57, 
+      "l_arm_z": -50.24, 
+      "l_shoulder_x": 4.150000000000006, 
+      "l_shoulder_y": -49.08
+    }, 
+    {
+      "l_elbow_y": -73.01, 
+      "l_arm_z": -50.68, 
+      "l_shoulder_x": 3.6299999999999955, 
+      "l_shoulder_y": -48.37
+    }, 
+    {
+      "l_elbow_y": -73.54, 
+      "l_arm_z": -51.03, 
+      "l_shoulder_x": 3.0999999999999943, 
+      "l_shoulder_y": -47.67
+    }, 
+    {
+      "l_elbow_y": -73.89, 
+      "l_arm_z": -51.47, 
+      "l_shoulder_x": 2.569999999999993, 
+      "l_shoulder_y": -46.88
+    }, 
+    {
+      "l_elbow_y": -74.15, 
+      "l_arm_z": -51.82, 
+      "l_shoulder_x": 2.0400000000000063, 
+      "l_shoulder_y": -46.18
+    }, 
+    {
+      "l_elbow_y": -74.51, 
+      "l_arm_z": -52.18, 
+      "l_shoulder_x": 1.5999999999999943, 
+      "l_shoulder_y": -45.38
+    }, 
+    {
+      "l_elbow_y": -74.77, 
+      "l_arm_z": -52.44, 
+      "l_shoulder_x": 1.25, 
+      "l_shoulder_y": -44.68
+    }, 
+    {
+      "l_elbow_y": -75.12, 
+      "l_arm_z": -52.7, 
+      "l_shoulder_x": 0.9000000000000057, 
+      "l_shoulder_y": -43.98
+    }, 
+    {
+      "l_elbow_y": -75.56, 
+      "l_arm_z": -53.05, 
+      "l_shoulder_x": 0.37000000000000455, 
+      "l_shoulder_y": -42.4
+    }, 
+    {
+      "l_elbow_y": -75.56, 
+      "l_arm_z": -53.05, 
+      "l_shoulder_x": 0.37000000000000455, 
+      "l_shoulder_y": -42.4
+    }, 
+    {
+      "l_elbow_y": -75.82, 
+      "l_arm_z": -53.14, 
+      "l_shoulder_x": 0.20000000000000284, 
+      "l_shoulder_y": -41.69
+    }, 
+    {
+      "l_elbow_y": -76.26, 
+      "l_arm_z": -53.23, 
+      "l_shoulder_x": -0.23999999999999488, 
+      "l_shoulder_y": -40.2
+    }, 
+    {
+      "l_elbow_y": -76.26, 
+      "l_arm_z": -53.23, 
+      "l_shoulder_x": -0.23999999999999488, 
+      "l_shoulder_y": -40.2
+    }, 
+    {
+      "l_elbow_y": -76.44, 
+      "l_arm_z": -53.32, 
+      "l_shoulder_x": -0.4200000000000017, 
+      "l_shoulder_y": -39.41
+    }, 
+    {
+      "l_elbow_y": -76.79, 
+      "l_arm_z": -53.32, 
+      "l_shoulder_x": -0.769999999999996, 
+      "l_shoulder_y": -38.26
+    }, 
+    {
+      "l_elbow_y": -76.97, 
+      "l_arm_z": -53.41, 
+      "l_shoulder_x": -0.769999999999996, 
+      "l_shoulder_y": -37.91
+    }, 
+    {
+      "l_elbow_y": -77.23, 
+      "l_arm_z": -53.49, 
+      "l_shoulder_x": -0.9500000000000028, 
+      "l_shoulder_y": -37.38
+    }, 
+    {
+      "l_elbow_y": -77.58, 
+      "l_arm_z": -53.58, 
+      "l_shoulder_x": -1.1200000000000045, 
+      "l_shoulder_y": -36.77
+    }, 
+    {
+      "l_elbow_y": -77.93, 
+      "l_arm_z": -53.67, 
+      "l_shoulder_x": -1.2999999999999972, 
+      "l_shoulder_y": -36.15
+    }, 
+    {
+      "l_elbow_y": -78.37, 
+      "l_arm_z": -53.67, 
+      "l_shoulder_x": -1.3799999999999955, 
+      "l_shoulder_y": -35.54
+    }, 
+    {
+      "l_elbow_y": -78.64, 
+      "l_arm_z": -53.76, 
+      "l_shoulder_x": -1.4699999999999989, 
+      "l_shoulder_y": -35.01
+    }, 
+    {
+      "l_elbow_y": -78.9, 
+      "l_arm_z": -53.76, 
+      "l_shoulder_x": -1.5600000000000023, 
+      "l_shoulder_y": -34.4
+    }, 
+    {
+      "l_elbow_y": -79.16, 
+      "l_arm_z": -53.76, 
+      "l_shoulder_x": -1.6500000000000057, 
+      "l_shoulder_y": -33.87
+    }, 
+    {
+      "l_elbow_y": -79.52, 
+      "l_arm_z": -53.67, 
+      "l_shoulder_x": -1.7399999999999949, 
+      "l_shoulder_y": -33.52
+    }, 
+    {
+      "l_elbow_y": -79.87, 
+      "l_arm_z": -53.49, 
+      "l_shoulder_x": -1.9099999999999966, 
+      "l_shoulder_y": -32.99
+    }, 
+    {
+      "l_elbow_y": -80.22, 
+      "l_arm_z": -53.41, 
+      "l_shoulder_x": -2.0, 
+      "l_shoulder_y": -32.64
+    }, 
+    {
+      "l_elbow_y": -80.57, 
+      "l_arm_z": -53.23, 
+      "l_shoulder_x": -2.180000000000007, 
+      "l_shoulder_y": -32.29
+    }, 
+    {
+      "l_elbow_y": -80.92, 
+      "l_arm_z": -52.88, 
+      "l_shoulder_x": -2.260000000000005, 
+      "l_shoulder_y": -32.02
+    }, 
+    {
+      "l_elbow_y": -81.27, 
+      "l_arm_z": -52.44, 
+      "l_shoulder_x": -2.260000000000005, 
+      "l_shoulder_y": -31.85
+    }, 
+    {
+      "l_elbow_y": -81.54, 
+      "l_arm_z": -51.91, 
+      "l_shoulder_x": -2.3499999999999943, 
+      "l_shoulder_y": -31.58
+    }, 
+    {
+      "l_elbow_y": -81.89, 
+      "l_arm_z": -51.3, 
+      "l_shoulder_x": -2.4399999999999977, 
+      "l_shoulder_y": -31.490000000000002
+    }, 
+    {
+      "l_elbow_y": -82.15, 
+      "l_arm_z": -50.77, 
+      "l_shoulder_x": -2.530000000000001, 
+      "l_shoulder_y": -31.32
+    }, 
+    {
+      "l_elbow_y": -82.33, 
+      "l_arm_z": -50.33, 
+      "l_shoulder_x": -2.6200000000000045, 
+      "l_shoulder_y": -31.229999999999997
+    }, 
+    {
+      "l_elbow_y": -82.59, 
+      "l_arm_z": -49.89, 
+      "l_shoulder_x": -2.7900000000000063, 
+      "l_shoulder_y": -31.229999999999997
+    }, 
+    {
+      "l_elbow_y": -82.86, 
+      "l_arm_z": -49.45, 
+      "l_shoulder_x": -2.969999999999999, 
+      "l_shoulder_y": -31.14
+    }, 
+    {
+      "l_elbow_y": -83.12, 
+      "l_arm_z": -49.1, 
+      "l_shoulder_x": -3.1400000000000006, 
+      "l_shoulder_y": -31.229999999999997
+    }, 
+    {
+      "l_elbow_y": -83.74, 
+      "l_arm_z": -48.4, 
+      "l_shoulder_x": -3.5799999999999983, 
+      "l_shoulder_y": -31.229999999999997
+    }, 
+    {
+      "l_elbow_y": -83.74, 
+      "l_arm_z": -48.4, 
+      "l_shoulder_x": -3.5799999999999983, 
+      "l_shoulder_y": -31.229999999999997
+    }, 
+    {
+      "l_elbow_y": -84.09, 
+      "l_arm_z": -48.04, 
+      "l_shoulder_x": -3.760000000000005, 
+      "l_shoulder_y": -31.32
+    }, 
+    {
+      "l_elbow_y": -84.7, 
+      "l_arm_z": -47.34, 
+      "l_shoulder_x": -4.019999999999996, 
+      "l_shoulder_y": -31.409999999999997
+    }, 
+    {
+      "l_elbow_y": -84.88, 
+      "l_arm_z": -47.08, 
+      "l_shoulder_x": -4.019999999999996, 
+      "l_shoulder_y": -31.490000000000002
+    }, 
+    {
+      "l_elbow_y": -84.97, 
+      "l_arm_z": -47.08, 
+      "l_shoulder_x": -3.930000000000007, 
+      "l_shoulder_y": -31.85
+    }, 
+    {
+      "l_elbow_y": -84.88, 
+      "l_arm_z": -47.16, 
+      "l_shoulder_x": -3.8499999999999943, 
+      "l_shoulder_y": -32.11
+    }, 
+    {
+      "l_elbow_y": -84.7, 
+      "l_arm_z": -47.34, 
+      "l_shoulder_x": -3.6700000000000017, 
+      "l_shoulder_y": -32.46
+    }, 
+    {
+      "l_elbow_y": -84.44, 
+      "l_arm_z": -47.6, 
+      "l_shoulder_x": -3.319999999999993, 
+      "l_shoulder_y": -32.73
+    }, 
+    {
+      "l_elbow_y": -84.0, 
+      "l_arm_z": -47.96, 
+      "l_shoulder_x": -2.8799999999999955, 
+      "l_shoulder_y": -33.08
+    }, 
+    {
+      "l_elbow_y": -83.56, 
+      "l_arm_z": -48.4, 
+      "l_shoulder_x": -2.4399999999999977, 
+      "l_shoulder_y": -33.52
+    }, 
+    {
+      "l_elbow_y": -83.21, 
+      "l_arm_z": -48.75, 
+      "l_shoulder_x": -1.8199999999999932, 
+      "l_shoulder_y": -33.87
+    }, 
+    {
+      "l_elbow_y": -82.77, 
+      "l_arm_z": -49.1, 
+      "l_shoulder_x": -1.1200000000000045, 
+      "l_shoulder_y": -34.31
+    }, 
+    {
+      "l_elbow_y": -82.33, 
+      "l_arm_z": -49.54, 
+      "l_shoulder_x": -0.23999999999999488, 
+      "l_shoulder_y": -34.75
+    }, 
+    {
+      "l_elbow_y": -81.89, 
+      "l_arm_z": -49.98, 
+      "l_shoulder_x": 0.5499999999999972, 
+      "l_shoulder_y": -35.1
+    }, 
+    {
+      "l_elbow_y": -81.45, 
+      "l_arm_z": -50.33, 
+      "l_shoulder_x": 1.4300000000000068, 
+      "l_shoulder_y": -35.45
+    }, 
+    {
+      "l_elbow_y": -80.92, 
+      "l_arm_z": -50.68, 
+      "l_shoulder_x": 2.4000000000000057, 
+      "l_shoulder_y": -35.98
+    }, 
+    {
+      "l_elbow_y": -80.4, 
+      "l_arm_z": -51.03, 
+      "l_shoulder_x": 3.3599999999999994, 
+      "l_shoulder_y": -36.33
+    }, 
+    {
+      "l_elbow_y": -79.87, 
+      "l_arm_z": -51.47, 
+      "l_shoulder_x": 4.239999999999995, 
+      "l_shoulder_y": -36.77
+    }, 
+    {
+      "l_elbow_y": -79.25, 
+      "l_arm_z": -52.0, 
+      "l_shoulder_x": 5.209999999999994, 
+      "l_shoulder_y": -37.21
+    }, 
+    {
+      "l_elbow_y": -78.55, 
+      "l_arm_z": -52.53, 
+      "l_shoulder_x": 6.090000000000003, 
+      "l_shoulder_y": -37.65
+    }, 
+    {
+      "l_elbow_y": -77.93, 
+      "l_arm_z": -53.14, 
+      "l_shoulder_x": 7.049999999999997, 
+      "l_shoulder_y": -38.18
+    }, 
+    {
+      "l_elbow_y": -77.23, 
+      "l_arm_z": -53.67, 
+      "l_shoulder_x": 7.760000000000005, 
+      "l_shoulder_y": -38.62
+    }, 
+    {
+      "l_elbow_y": -76.44, 
+      "l_arm_z": -54.02, 
+      "l_shoulder_x": 8.549999999999997, 
+      "l_shoulder_y": -39.23
+    }, 
+    {
+      "l_elbow_y": -75.74, 
+      "l_arm_z": -54.29, 
+      "l_shoulder_x": 9.079999999999998, 
+      "l_shoulder_y": -39.67
+    }, 
+    {
+      "l_elbow_y": -75.3, 
+      "l_arm_z": -54.37, 
+      "l_shoulder_x": 9.599999999999994, 
+      "l_shoulder_y": -40.2
+    }, 
+    {
+      "l_elbow_y": -74.77, 
+      "l_arm_z": -54.29, 
+      "l_shoulder_x": 10.040000000000006, 
+      "l_shoulder_y": -40.73
+    }, 
+    {
+      "l_elbow_y": -74.42, 
+      "l_arm_z": -54.11, 
+      "l_shoulder_x": 10.310000000000002, 
+      "l_shoulder_y": -41.34
+    }, 
+    {
+      "l_elbow_y": -74.07, 
+      "l_arm_z": -53.58, 
+      "l_shoulder_x": 10.75, 
+      "l_shoulder_y": -42.22
+    }, 
+    {
+      "l_elbow_y": -74.07, 
+      "l_arm_z": -53.41, 
+      "l_shoulder_x": 10.920000000000002, 
+      "l_shoulder_y": -42.57
+    }, 
+    {
+      "l_elbow_y": -73.98, 
+      "l_arm_z": -52.97, 
+      "l_shoulder_x": 11.189999999999998, 
+      "l_shoulder_y": -43.19
+    }, 
+    {
+      "l_elbow_y": -73.89, 
+      "l_arm_z": -52.44, 
+      "l_shoulder_x": 11.540000000000006, 
+      "l_shoulder_y": -43.89
+    }, 
+    {
+      "l_elbow_y": -73.8, 
+      "l_arm_z": -51.91, 
+      "l_shoulder_x": 11.980000000000004, 
+      "l_shoulder_y": -44.68
+    }, 
+    {
+      "l_elbow_y": -73.8, 
+      "l_arm_z": -51.3, 
+      "l_shoulder_x": 12.510000000000005, 
+      "l_shoulder_y": -45.21
+    }, 
+    {
+      "l_elbow_y": -73.71, 
+      "l_arm_z": -50.77, 
+      "l_shoulder_x": 13.030000000000001, 
+      "l_shoulder_y": -46.0
+    }, 
+    {
+      "l_elbow_y": -73.63, 
+      "l_arm_z": -50.33, 
+      "l_shoulder_x": 13.739999999999995, 
+      "l_shoulder_y": -46.79
+    }, 
+    {
+      "l_elbow_y": -73.45, 
+      "l_arm_z": -49.89, 
+      "l_shoulder_x": 14.349999999999994, 
+      "l_shoulder_y": -47.67
+    }, 
+    {
+      "l_elbow_y": -73.1, 
+      "l_arm_z": -49.45, 
+      "l_shoulder_x": 15.14, 
+      "l_shoulder_y": -48.46
+    }, 
+    {
+      "l_elbow_y": -72.75, 
+      "l_arm_z": -49.19, 
+      "l_shoulder_x": 15.849999999999994, 
+      "l_shoulder_y": -49.16
+    }, 
+    {
+      "l_elbow_y": -72.4, 
+      "l_arm_z": -48.84, 
+      "l_shoulder_x": 16.730000000000004, 
+      "l_shoulder_y": -49.96
+    }, 
+    {
+      "l_elbow_y": -71.96, 
+      "l_arm_z": -48.48, 
+      "l_shoulder_x": 17.340000000000003, 
+      "l_shoulder_y": -50.57
+    }, 
+    {
+      "l_elbow_y": -71.52, 
+      "l_arm_z": -48.22, 
+      "l_shoulder_x": 18.129999999999995, 
+      "l_shoulder_y": -51.27
+    }, 
+    {
+      "l_elbow_y": -71.16, 
+      "l_arm_z": -47.87, 
+      "l_shoulder_x": 18.92, 
+      "l_shoulder_y": -52.07
+    }, 
+    {
+      "l_elbow_y": -70.73, 
+      "l_arm_z": -47.52, 
+      "l_shoulder_x": 19.799999999999997, 
+      "l_shoulder_y": -52.68
+    }, 
+    {
+      "l_elbow_y": -70.46, 
+      "l_arm_z": -47.08, 
+      "l_shoulder_x": 20.510000000000005, 
+      "l_shoulder_y": -53.3
+    }, 
+    {
+      "l_elbow_y": -70.11, 
+      "l_arm_z": -46.81, 
+      "l_shoulder_x": 21.209999999999994, 
+      "l_shoulder_y": -53.82
+    }, 
+    {
+      "l_elbow_y": -69.85, 
+      "l_arm_z": -46.37, 
+      "l_shoulder_x": 22.0, 
+      "l_shoulder_y": -54.35
+    }, 
+    {
+      "l_elbow_y": -69.14, 
+      "l_arm_z": -45.76, 
+      "l_shoulder_x": 23.409999999999997, 
+      "l_shoulder_y": -55.49
+    }, 
+    {
+      "l_elbow_y": -68.88, 
+      "l_arm_z": -45.49, 
+      "l_shoulder_x": 24.11, 
+      "l_shoulder_y": -56.11
+    }, 
+    {
+      "l_elbow_y": -68.53, 
+      "l_arm_z": -45.14, 
+      "l_shoulder_x": 24.730000000000004, 
+      "l_shoulder_y": -56.55
+    }, 
+    {
+      "l_elbow_y": -68.26, 
+      "l_arm_z": -44.79, 
+      "l_shoulder_x": 25.25, 
+      "l_shoulder_y": -56.99
+    }, 
+    {
+      "l_elbow_y": -67.91, 
+      "l_arm_z": -44.35, 
+      "l_shoulder_x": 25.870000000000005, 
+      "l_shoulder_y": -57.6
+    }, 
+    {
+      "l_elbow_y": -67.56, 
+      "l_arm_z": -43.91, 
+      "l_shoulder_x": 26.57, 
+      "l_shoulder_y": -58.129999999999995
+    }, 
+    {
+      "l_elbow_y": -67.12, 
+      "l_arm_z": -43.65, 
+      "l_shoulder_x": 27.189999999999998, 
+      "l_shoulder_y": -58.66
+    }, 
+    {
+      "l_elbow_y": -66.68, 
+      "l_arm_z": -43.3, 
+      "l_shoulder_x": 27.799999999999997, 
+      "l_shoulder_y": -59.1
+    }, 
+    {
+      "l_elbow_y": -66.15, 
+      "l_arm_z": -43.12, 
+      "l_shoulder_x": 28.42, 
+      "l_shoulder_y": -59.54
+    }, 
+    {
+      "l_elbow_y": -65.54, 
+      "l_arm_z": -42.95, 
+      "l_shoulder_x": 29.03, 
+      "l_shoulder_y": -60.07
+    }, 
+    {
+      "l_elbow_y": -64.84, 
+      "l_arm_z": -42.95, 
+      "l_shoulder_x": 29.740000000000002, 
+      "l_shoulder_y": -60.59
+    }, 
+    {
+      "l_elbow_y": -64.31, 
+      "l_arm_z": -42.77, 
+      "l_shoulder_x": 30.35, 
+      "l_shoulder_y": -61.03
+    }, 
+    {
+      "l_elbow_y": -63.6, 
+      "l_arm_z": -42.68, 
+      "l_shoulder_x": 30.97, 
+      "l_shoulder_y": -61.56
+    }, 
+    {
+      "l_elbow_y": -62.99, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 31.58, 
+      "l_shoulder_y": -61.91
+    }, 
+    {
+      "l_elbow_y": -62.37, 
+      "l_arm_z": -42.59, 
+      "l_shoulder_x": 32.2, 
+      "l_shoulder_y": -62.53
+    }, 
+    {
+      "l_elbow_y": -61.76, 
+      "l_arm_z": -42.51, 
+      "l_shoulder_x": 32.81, 
+      "l_shoulder_y": -62.97
+    }, 
+    {
+      "l_elbow_y": -61.14, 
+      "l_arm_z": -42.42, 
+      "l_shoulder_x": 33.43, 
+      "l_shoulder_y": -63.41
+    }, 
+    {
+      "l_elbow_y": -60.62, 
+      "l_arm_z": -42.33, 
+      "l_shoulder_x": 33.96, 
+      "l_shoulder_y": -63.85
+    }, 
+    {
+      "l_elbow_y": -60.26, 
+      "l_arm_z": -42.24, 
+      "l_shoulder_x": 34.4, 
+      "l_shoulder_y": -64.2
+    }, 
+    {
+      "l_elbow_y": -59.82, 
+      "l_arm_z": -42.24, 
+      "l_shoulder_x": 34.84, 
+      "l_shoulder_y": -64.64
+    }, 
+    {
+      "l_elbow_y": -59.47, 
+      "l_arm_z": -42.33, 
+      "l_shoulder_x": 35.36, 
+      "l_shoulder_y": -64.99
+    }, 
+    {
+      "l_elbow_y": -59.21, 
+      "l_arm_z": -42.33, 
+      "l_shoulder_x": 35.71, 
+      "l_shoulder_y": -65.25
+    }, 
+    {
+      "l_elbow_y": -58.95, 
+      "l_arm_z": -42.24, 
+      "l_shoulder_x": 36.07, 
+      "l_shoulder_y": -65.43
+    }, 
+    {
+      "l_elbow_y": -58.68, 
+      "l_arm_z": -42.24, 
+      "l_shoulder_x": 36.33, 
+      "l_shoulder_y": -65.6
+    }, 
+    {
+      "l_elbow_y": -58.24, 
+      "l_arm_z": -42.24, 
+      "l_shoulder_x": 36.59, 
+      "l_shoulder_y": -65.78
+    }, 
+    {
+      "l_elbow_y": -57.71, 
+      "l_arm_z": -42.15, 
+      "l_shoulder_x": 36.86, 
+      "l_shoulder_y": -65.87
+    }, 
+    {
+      "l_elbow_y": -57.19, 
+      "l_arm_z": -41.98, 
+      "l_shoulder_x": 37.03, 
+      "l_shoulder_y": -65.87
+    }, 
+    {
+      "l_elbow_y": -56.75, 
+      "l_arm_z": -41.71, 
+      "l_shoulder_x": 37.12, 
+      "l_shoulder_y": -65.96000000000001
+    }, 
+    {
+      "l_elbow_y": -56.4, 
+      "l_arm_z": -41.19, 
+      "l_shoulder_x": 37.21, 
+      "l_shoulder_y": -65.96000000000001
+    }, 
+    {
+      "l_elbow_y": -56.04, 
+      "l_arm_z": -40.48, 
+      "l_shoulder_x": 37.21, 
+      "l_shoulder_y": -66.03999999999999
+    }, 
+    {
+      "l_elbow_y": -55.78, 
+      "l_arm_z": -39.6, 
+      "l_shoulder_x": 37.03, 
+      "l_shoulder_y": -65.96000000000001
+    }, 
+    {
+      "l_elbow_y": -55.43, 
+      "l_arm_z": -38.29, 
+      "l_shoulder_x": 37.03, 
+      "l_shoulder_y": -65.96000000000001
+    }, 
+    {
+      "l_elbow_y": -55.34, 
+      "l_arm_z": -37.58, 
+      "l_shoulder_x": 36.95, 
+      "l_shoulder_y": -65.87
+    }, 
+    {
+      "l_elbow_y": -55.16, 
+      "l_arm_z": -36.35, 
+      "l_shoulder_x": 36.86, 
+      "l_shoulder_y": -65.87
+    }, 
+    {
+      "l_elbow_y": -55.16, 
+      "l_arm_z": -35.12, 
+      "l_shoulder_x": 36.68, 
+      "l_shoulder_y": -65.69
+    }, 
+    {
+      "l_elbow_y": -55.16, 
+      "l_arm_z": -33.89, 
+      "l_shoulder_x": 36.42, 
+      "l_shoulder_y": -65.6
+    }, 
+    {
+      "l_elbow_y": -55.16, 
+      "l_arm_z": -32.57, 
+      "l_shoulder_x": 35.98, 
+      "l_shoulder_y": -65.6
+    }, 
+    {
+      "l_elbow_y": -55.16, 
+      "l_arm_z": -31.25, 
+      "l_shoulder_x": 35.45, 
+      "l_shoulder_y": -65.69
+    }, 
+    {
+      "l_elbow_y": -55.16, 
+      "l_arm_z": -29.93, 
+      "l_shoulder_x": 34.84, 
+      "l_shoulder_y": -65.69
+    }, 
+    {
+      "l_elbow_y": -55.25, 
+      "l_arm_z": -28.44, 
+      "l_shoulder_x": 34.13, 
+      "l_shoulder_y": -65.69
+    }, 
+    {
+      "l_elbow_y": -55.43, 
+      "l_arm_z": -27.03, 
+      "l_shoulder_x": 33.43, 
+      "l_shoulder_y": -65.69
+    }, 
+    {
+      "l_elbow_y": -55.52, 
+      "l_arm_z": -25.45, 
+      "l_shoulder_x": 32.73, 
+      "l_shoulder_y": -65.69
+    }, 
+    {
+      "l_elbow_y": -55.52, 
+      "l_arm_z": -23.87, 
+      "l_shoulder_x": 31.93, 
+      "l_shoulder_y": -65.6
+    }, 
+    {
+      "l_elbow_y": -55.52, 
+      "l_arm_z": -22.2, 
+      "l_shoulder_x": 31.32, 
+      "l_shoulder_y": -65.6
+    }, 
+    {
+      "l_elbow_y": -55.52, 
+      "l_arm_z": -20.44, 
+      "l_shoulder_x": 30.619999999999997, 
+      "l_shoulder_y": -65.52
+    }, 
+    {
+      "l_elbow_y": -55.52, 
+      "l_arm_z": -18.59, 
+      "l_shoulder_x": 29.82, 
+      "l_shoulder_y": -65.43
+    }, 
+    {
+      "l_elbow_y": -55.52, 
+      "l_arm_z": -16.66, 
+      "l_shoulder_x": 29.03, 
+      "l_shoulder_y": -65.34
+    }, 
+    {
+      "l_elbow_y": -55.52, 
+      "l_arm_z": -14.64, 
+      "l_shoulder_x": 28.240000000000002, 
+      "l_shoulder_y": -65.16
+    }, 
+    {
+      "l_elbow_y": -55.43, 
+      "l_arm_z": -12.53, 
+      "l_shoulder_x": 27.36, 
+      "l_shoulder_y": -65.08
+    }, 
+    {
+      "l_elbow_y": -55.43, 
+      "l_arm_z": -10.51, 
+      "l_shoulder_x": 26.4, 
+      "l_shoulder_y": -64.9
+    }, 
+    {
+      "l_elbow_y": -55.34, 
+      "l_arm_z": -8.31, 
+      "l_shoulder_x": 25.340000000000003, 
+      "l_shoulder_y": -64.73
+    }, 
+    {
+      "l_elbow_y": -55.43, 
+      "l_arm_z": -5.93, 
+      "l_shoulder_x": 24.290000000000006, 
+      "l_shoulder_y": -64.55
+    }, 
+    {
+      "l_elbow_y": -55.52, 
+      "l_arm_z": -4.0, 
+      "l_shoulder_x": 23.409999999999997, 
+      "l_shoulder_y": -64.46000000000001
+    }, 
+    {
+      "l_elbow_y": -55.6, 
+      "l_arm_z": -1.89, 
+      "l_shoulder_x": 22.53, 
+      "l_shoulder_y": -64.37
+    }, 
+    {
+      "l_elbow_y": -55.6, 
+      "l_arm_z": 1.98, 
+      "l_shoulder_x": 20.769999999999996, 
+      "l_shoulder_y": -64.37
+    }, 
+    {
+      "l_elbow_y": -55.6, 
+      "l_arm_z": 1.98, 
+      "l_shoulder_x": 20.769999999999996, 
+      "l_shoulder_y": -64.37
+    }, 
+    {
+      "l_elbow_y": -55.87, 
+      "l_arm_z": 5.58, 
+      "l_shoulder_x": 19.36, 
+      "l_shoulder_y": -64.46000000000001
+    }, 
+    {
+      "l_elbow_y": -55.87, 
+      "l_arm_z": 5.58, 
+      "l_shoulder_x": 19.36, 
+      "l_shoulder_y": -64.46000000000001
+    }, 
+    {
+      "l_elbow_y": -56.4, 
+      "l_arm_z": 9.36, 
+      "l_shoulder_x": 18.400000000000006, 
+      "l_shoulder_y": -64.73
+    }, 
+    {
+      "l_elbow_y": -56.66, 
+      "l_arm_z": 11.65, 
+      "l_shoulder_x": 17.689999999999998, 
+      "l_shoulder_y": -64.9
+    }, 
+    {
+      "l_elbow_y": -56.66, 
+      "l_arm_z": 11.65, 
+      "l_shoulder_x": 17.689999999999998, 
+      "l_shoulder_y": -64.9
+    }, 
+    {
+      "l_elbow_y": -57.36, 
+      "l_arm_z": 15.69, 
+      "l_shoulder_x": 16.459999999999994, 
+      "l_shoulder_y": -65.6
+    }, 
+    {
+      "l_elbow_y": -57.63, 
+      "l_arm_z": 17.71, 
+      "l_shoulder_x": 15.579999999999998, 
+      "l_shoulder_y": -65.96000000000001
+    }, 
+    {
+      "l_elbow_y": -57.98, 
+      "l_arm_z": 19.82, 
+      "l_shoulder_x": 14.700000000000003, 
+      "l_shoulder_y": -66.31
+    }, 
+    {
+      "l_elbow_y": -58.24, 
+      "l_arm_z": 21.67, 
+      "l_shoulder_x": 13.819999999999993, 
+      "l_shoulder_y": -66.66
+    }, 
+    {
+      "l_elbow_y": -58.51, 
+      "l_arm_z": 23.69, 
+      "l_shoulder_x": 13.030000000000001, 
+      "l_shoulder_y": -67.1
+    }, 
+    {
+      "l_elbow_y": -58.77, 
+      "l_arm_z": 25.63, 
+      "l_shoulder_x": 12.150000000000006, 
+      "l_shoulder_y": -67.45
+    }, 
+    {
+      "l_elbow_y": -59.03, 
+      "l_arm_z": 27.38, 
+      "l_shoulder_x": 11.450000000000003, 
+      "l_shoulder_y": -67.71000000000001
+    }, 
+    {
+      "l_elbow_y": -59.3, 
+      "l_arm_z": 29.23, 
+      "l_shoulder_x": 10.659999999999997, 
+      "l_shoulder_y": -68.15
+    }, 
+    {
+      "l_elbow_y": -59.56, 
+      "l_arm_z": 31.08, 
+      "l_shoulder_x": 10.040000000000006, 
+      "l_shoulder_y": -68.59
+    }, 
+    {
+      "l_elbow_y": -59.74, 
+      "l_arm_z": 32.75, 
+      "l_shoulder_x": 9.430000000000007, 
+      "l_shoulder_y": -68.86
+    }, 
+    {
+      "l_elbow_y": -60.0, 
+      "l_arm_z": 34.51, 
+      "l_shoulder_x": 8.810000000000002, 
+      "l_shoulder_y": -69.21000000000001
+    }, 
+    {
+      "l_elbow_y": -60.26, 
+      "l_arm_z": 36.18, 
+      "l_shoulder_x": 8.459999999999994, 
+      "l_shoulder_y": -69.65
+    }, 
+    {
+      "l_elbow_y": -60.53, 
+      "l_arm_z": 37.85, 
+      "l_shoulder_x": 8.019999999999996, 
+      "l_shoulder_y": -70.0
+    }, 
+    {
+      "l_elbow_y": -60.79, 
+      "l_arm_z": 39.34, 
+      "l_shoulder_x": 7.670000000000002, 
+      "l_shoulder_y": -70.35
+    }, 
+    {
+      "l_elbow_y": -61.05, 
+      "l_arm_z": 41.01, 
+      "l_shoulder_x": 7.409999999999997, 
+      "l_shoulder_y": -70.7
+    }, 
+    {
+      "l_elbow_y": -61.32, 
+      "l_arm_z": 42.42, 
+      "l_shoulder_x": 7.230000000000004, 
+      "l_shoulder_y": -70.97
+    }, 
+    {
+      "l_elbow_y": -61.49, 
+      "l_arm_z": 43.82, 
+      "l_shoulder_x": 7.049999999999997, 
+      "l_shoulder_y": -71.41
+    }, 
+    {
+      "l_elbow_y": -61.67, 
+      "l_arm_z": 45.41, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -71.76
+    }, 
+    {
+      "l_elbow_y": -61.85, 
+      "l_arm_z": 46.73, 
+      "l_shoulder_x": 6.790000000000006, 
+      "l_shoulder_y": -72.11
+    }, 
+    {
+      "l_elbow_y": -61.93, 
+      "l_arm_z": 47.87, 
+      "l_shoulder_x": 6.790000000000006, 
+      "l_shoulder_y": -72.37
+    }, 
+    {
+      "l_elbow_y": -62.02, 
+      "l_arm_z": 49.45, 
+      "l_shoulder_x": 6.790000000000006, 
+      "l_shoulder_y": -72.81
+    }, 
+    {
+      "l_elbow_y": -62.02, 
+      "l_arm_z": 50.15, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -72.99
+    }, 
+    {
+      "l_elbow_y": -62.02, 
+      "l_arm_z": 51.12, 
+      "l_shoulder_x": 6.790000000000006, 
+      "l_shoulder_y": -73.16
+    }, 
+    {
+      "l_elbow_y": -62.02, 
+      "l_arm_z": 52.18, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -73.52
+    }, 
+    {
+      "l_elbow_y": -62.02, 
+      "l_arm_z": 53.14, 
+      "l_shoulder_x": 6.790000000000006, 
+      "l_shoulder_y": -73.78
+    }, 
+    {
+      "l_elbow_y": -62.02, 
+      "l_arm_z": 54.02, 
+      "l_shoulder_x": 6.790000000000006, 
+      "l_shoulder_y": -74.03999999999999
+    }, 
+    {
+      "l_elbow_y": -62.02, 
+      "l_arm_z": 54.81, 
+      "l_shoulder_x": 6.790000000000006, 
+      "l_shoulder_y": -74.22
+    }, 
+    {
+      "l_elbow_y": -62.02, 
+      "l_arm_z": 55.52, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -74.48
+    }, 
+    {
+      "l_elbow_y": -62.02, 
+      "l_arm_z": 56.04, 
+      "l_shoulder_x": 6.790000000000006, 
+      "l_shoulder_y": -74.57
+    }, 
+    {
+      "l_elbow_y": -62.02, 
+      "l_arm_z": 56.48, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -74.75
+    }, 
+    {
+      "l_elbow_y": -62.02, 
+      "l_arm_z": 56.92, 
+      "l_shoulder_x": 6.790000000000006, 
+      "l_shoulder_y": -74.84
+    }, 
+    {
+      "l_elbow_y": -62.02, 
+      "l_arm_z": 57.1, 
+      "l_shoulder_x": 6.790000000000006, 
+      "l_shoulder_y": -74.84
+    }, 
+    {
+      "l_elbow_y": -62.02, 
+      "l_arm_z": 57.27, 
+      "l_shoulder_x": 6.790000000000006, 
+      "l_shoulder_y": -74.84
+    }, 
+    {
+      "l_elbow_y": -62.11, 
+      "l_arm_z": 57.19, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -74.84
+    }, 
+    {
+      "l_elbow_y": -62.02, 
+      "l_arm_z": 57.01, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -74.57
+    }, 
+    {
+      "l_elbow_y": -62.02, 
+      "l_arm_z": 56.48, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -74.4
+    }, 
+    {
+      "l_elbow_y": -62.02, 
+      "l_arm_z": 55.6, 
+      "l_shoulder_x": 6.969999999999999, 
+      "l_shoulder_y": -74.22
+    }, 
+    {
+      "l_elbow_y": -62.11, 
+      "l_arm_z": 54.46, 
+      "l_shoulder_x": 7.319999999999993, 
+      "l_shoulder_y": -73.87
+    }, 
+    {
+      "l_elbow_y": -62.2, 
+      "l_arm_z": 52.88, 
+      "l_shoulder_x": 7.760000000000005, 
+      "l_shoulder_y": -73.43
+    }, 
+    {
+      "l_elbow_y": -62.29, 
+      "l_arm_z": 50.86, 
+      "l_shoulder_x": 8.290000000000006, 
+      "l_shoulder_y": -73.08
+    }, 
+    {
+      "l_elbow_y": -62.55, 
+      "l_arm_z": 48.31, 
+      "l_shoulder_x": 8.989999999999995, 
+      "l_shoulder_y": -72.73
+    }, 
+    {
+      "l_elbow_y": -62.73, 
+      "l_arm_z": 45.76, 
+      "l_shoulder_x": 9.780000000000001, 
+      "l_shoulder_y": -72.37
+    }, 
+    {
+      "l_elbow_y": -63.25, 
+      "l_arm_z": 43.03, 
+      "l_shoulder_x": 10.659999999999997, 
+      "l_shoulder_y": -72.11
+    }, 
+    {
+      "l_elbow_y": -63.69, 
+      "l_arm_z": 40.13, 
+      "l_shoulder_x": 11.540000000000006, 
+      "l_shoulder_y": -71.85
+    }, 
+    {
+      "l_elbow_y": -64.22, 
+      "l_arm_z": 37.14, 
+      "l_shoulder_x": 12.420000000000002, 
+      "l_shoulder_y": -71.49
+    }, 
+    {
+      "l_elbow_y": -64.92, 
+      "l_arm_z": 34.24, 
+      "l_shoulder_x": 13.469999999999999, 
+      "l_shoulder_y": -71.23
+    }, 
+    {
+      "l_elbow_y": -65.63, 
+      "l_arm_z": 31.34, 
+      "l_shoulder_x": 14.349999999999994, 
+      "l_shoulder_y": -70.97
+    }, 
+    {
+      "l_elbow_y": -66.42, 
+      "l_arm_z": 28.62, 
+      "l_shoulder_x": 15.230000000000004, 
+      "l_shoulder_y": -70.7
+    }, 
+    {
+      "l_elbow_y": -67.12, 
+      "l_arm_z": 26.15, 
+      "l_shoulder_x": 15.930000000000007, 
+      "l_shoulder_y": -70.44
+    }, 
+    {
+      "l_elbow_y": -68.0, 
+      "l_arm_z": 23.52, 
+      "l_shoulder_x": 16.810000000000002, 
+      "l_shoulder_y": -70.26
+    }, 
+    {
+      "l_elbow_y": -68.79, 
+      "l_arm_z": 21.05, 
+      "l_shoulder_x": 17.689999999999998, 
+      "l_shoulder_y": -70.0
+    }, 
+    {
+      "l_elbow_y": -69.76, 
+      "l_arm_z": 18.59, 
+      "l_shoulder_x": 18.569999999999993, 
+      "l_shoulder_y": -69.65
+    }, 
+    {
+      "l_elbow_y": -70.55, 
+      "l_arm_z": 16.13, 
+      "l_shoulder_x": 19.269999999999996, 
+      "l_shoulder_y": -69.38
+    }, 
+    {
+      "l_elbow_y": -71.34, 
+      "l_arm_z": 13.85, 
+      "l_shoulder_x": 19.980000000000004, 
+      "l_shoulder_y": -69.21000000000001
+    }, 
+    {
+      "l_elbow_y": -72.22, 
+      "l_arm_z": 11.47, 
+      "l_shoulder_x": 20.86, 
+      "l_shoulder_y": -69.03
+    }, 
+    {
+      "l_elbow_y": -73.27, 
+      "l_arm_z": 9.01, 
+      "l_shoulder_x": 21.650000000000006, 
+      "l_shoulder_y": -68.86
+    }, 
+    {
+      "l_elbow_y": -74.24, 
+      "l_arm_z": 6.81, 
+      "l_shoulder_x": 22.349999999999994, 
+      "l_shoulder_y": -68.86
+    }, 
+    {
+      "l_elbow_y": -75.3, 
+      "l_arm_z": 4.44, 
+      "l_shoulder_x": 23.14, 
+      "l_shoulder_y": -68.95
+    }, 
+    {
+      "l_elbow_y": -76.35, 
+      "l_arm_z": 2.42, 
+      "l_shoulder_x": 23.930000000000007, 
+      "l_shoulder_y": -69.03
+    }, 
+    {
+      "l_elbow_y": -77.58, 
+      "l_arm_z": 0.4, 
+      "l_shoulder_x": 24.64, 
+      "l_shoulder_y": -69.03
+    }, 
+    {
+      "l_elbow_y": -78.81, 
+      "l_arm_z": -1.54, 
+      "l_shoulder_x": 25.430000000000007, 
+      "l_shoulder_y": -69.12
+    }, 
+    {
+      "l_elbow_y": -80.22, 
+      "l_arm_z": -3.38, 
+      "l_shoulder_x": 26.04, 
+      "l_shoulder_y": -69.3
+    }, 
+    {
+      "l_elbow_y": -81.63, 
+      "l_arm_z": -5.14, 
+      "l_shoulder_x": 26.840000000000003, 
+      "l_shoulder_y": -69.38
+    }, 
+    {
+      "l_elbow_y": -83.03, 
+      "l_arm_z": -6.9, 
+      "l_shoulder_x": 27.450000000000003, 
+      "l_shoulder_y": -69.56
+    }, 
+    {
+      "l_elbow_y": -84.44, 
+      "l_arm_z": -8.66, 
+      "l_shoulder_x": 28.07, 
+      "l_shoulder_y": -69.65
+    }, 
+    {
+      "l_elbow_y": -85.85, 
+      "l_arm_z": -10.24, 
+      "l_shoulder_x": 28.590000000000003, 
+      "l_shoulder_y": -69.91
+    }, 
+    {
+      "l_elbow_y": -87.25, 
+      "l_arm_z": -11.82, 
+      "l_shoulder_x": 29.21, 
+      "l_shoulder_y": -70.18
+    }, 
+    {
+      "l_elbow_y": -88.48, 
+      "l_arm_z": -13.32, 
+      "l_shoulder_x": 29.65, 
+      "l_shoulder_y": -70.26
+    }, 
+    {
+      "l_elbow_y": -89.8, 
+      "l_arm_z": -14.9, 
+      "l_shoulder_x": 30.259999999999998, 
+      "l_shoulder_y": -70.44
+    }, 
+    {
+      "l_elbow_y": -91.03, 
+      "l_arm_z": -16.48, 
+      "l_shoulder_x": 30.79, 
+      "l_shoulder_y": -70.7
+    }, 
+    {
+      "l_elbow_y": -92.62, 
+      "l_arm_z": -18.59, 
+      "l_shoulder_x": 31.58, 
+      "l_shoulder_y": -70.78999999999999
+    }, 
+    {
+      "l_elbow_y": -93.67, 
+      "l_arm_z": -20.26, 
+      "l_shoulder_x": 32.02, 
+      "l_shoulder_y": -70.88
+    }, 
+    {
+      "l_elbow_y": -94.37, 
+      "l_arm_z": -21.32, 
+      "l_shoulder_x": 32.29, 
+      "l_shoulder_y": -70.97
+    }, 
+    {
+      "l_elbow_y": -95.52, 
+      "l_arm_z": -23.25, 
+      "l_shoulder_x": 32.81, 
+      "l_shoulder_y": -71.05
+    }, 
+    {
+      "l_elbow_y": -96.22, 
+      "l_arm_z": -24.57, 
+      "l_shoulder_x": 33.08, 
+      "l_shoulder_y": -71.14
+    }, 
+    {
+      "l_elbow_y": -97.8, 
+      "l_arm_z": -27.65, 
+      "l_shoulder_x": 33.34, 
+      "l_shoulder_y": -71.23
+    }, 
+    {
+      "l_elbow_y": -97.8, 
+      "l_arm_z": -27.65, 
+      "l_shoulder_x": 33.6, 
+      "l_shoulder_y": -71.32
+    }, 
+    {
+      "l_elbow_y": -98.51, 
+      "l_arm_z": -29.14, 
+      "l_shoulder_x": 33.87, 
+      "l_shoulder_y": -71.49
+    }, 
+    {
+      "l_elbow_y": -99.12, 
+      "l_arm_z": -30.73, 
+      "l_shoulder_x": 34.04, 
+      "l_shoulder_y": -71.49
+    }, 
+    {
+      "l_elbow_y": -100.26, 
+      "l_arm_z": -33.98, 
+      "l_shoulder_x": 34.48, 
+      "l_shoulder_y": -71.58
+    }, 
+    {
+      "l_elbow_y": -100.7, 
+      "l_arm_z": -35.65, 
+      "l_shoulder_x": 34.66, 
+      "l_shoulder_y": -71.58
+    }, 
+    {
+      "l_elbow_y": -101.14, 
+      "l_arm_z": -37.41, 
+      "l_shoulder_x": 34.84, 
+      "l_shoulder_y": -71.67
+    }, 
+    {
+      "l_elbow_y": -101.14, 
+      "l_arm_z": -37.41, 
+      "l_shoulder_x": 34.84, 
+      "l_shoulder_y": -71.67
+    }, 
+    {
+      "l_elbow_y": -101.93, 
+      "l_arm_z": -40.92, 
+      "l_shoulder_x": 35.27, 
+      "l_shoulder_y": -71.76
+    }, 
+    {
+      "l_elbow_y": -102.29, 
+      "l_arm_z": -42.77, 
+      "l_shoulder_x": 35.45, 
+      "l_shoulder_y": -71.85
+    }, 
+    {
+      "l_elbow_y": -102.55, 
+      "l_arm_z": -44.53, 
+      "l_shoulder_x": 35.71, 
+      "l_shoulder_y": -71.85
+    }, 
+    {
+      "l_elbow_y": -102.81, 
+      "l_arm_z": -46.37, 
+      "l_shoulder_x": 35.89, 
+      "l_shoulder_y": -71.85
+    }, 
+    {
+      "l_elbow_y": -102.99, 
+      "l_arm_z": -48.31, 
+      "l_shoulder_x": 36.07, 
+      "l_shoulder_y": -71.85
+    }, 
+    {
+      "l_elbow_y": -103.08, 
+      "l_arm_z": -50.07, 
+      "l_shoulder_x": 36.24, 
+      "l_shoulder_y": -71.76
+    }, 
+    {
+      "l_elbow_y": -103.16, 
+      "l_arm_z": -52.0, 
+      "l_shoulder_x": 36.51, 
+      "l_shoulder_y": -71.58
+    }, 
+    {
+      "l_elbow_y": -103.16, 
+      "l_arm_z": -54.11, 
+      "l_shoulder_x": 36.59, 
+      "l_shoulder_y": -71.58
+    }, 
+    {
+      "l_elbow_y": -103.08, 
+      "l_arm_z": -56.13, 
+      "l_shoulder_x": 36.68, 
+      "l_shoulder_y": -71.49
+    }, 
+    {
+      "l_elbow_y": -103.08, 
+      "l_arm_z": -58.07, 
+      "l_shoulder_x": 36.86, 
+      "l_shoulder_y": -71.32
+    }, 
+    {
+      "l_elbow_y": -103.08, 
+      "l_arm_z": -60.26, 
+      "l_shoulder_x": 36.95, 
+      "l_shoulder_y": -71.05
+    }, 
+    {
+      "l_elbow_y": -102.99, 
+      "l_arm_z": -62.46, 
+      "l_shoulder_x": 37.12, 
+      "l_shoulder_y": -70.88
+    }, 
+    {
+      "l_elbow_y": -102.99, 
+      "l_arm_z": -64.66, 
+      "l_shoulder_x": 37.21, 
+      "l_shoulder_y": -70.7
+    }, 
+    {
+      "l_elbow_y": -102.99, 
+      "l_arm_z": -66.86, 
+      "l_shoulder_x": 37.21, 
+      "l_shoulder_y": -70.53
+    }, 
+    {
+      "l_elbow_y": -102.9, 
+      "l_arm_z": -68.7, 
+      "l_shoulder_x": 37.3, 
+      "l_shoulder_y": -70.26
+    }, 
+    {
+      "l_elbow_y": -102.9, 
+      "l_arm_z": -70.73, 
+      "l_shoulder_x": 37.3, 
+      "l_shoulder_y": -70.09
+    }, 
+    {
+      "l_elbow_y": -102.81, 
+      "l_arm_z": -72.84, 
+      "l_shoulder_x": 37.3, 
+      "l_shoulder_y": -69.74
+    }, 
+    {
+      "l_elbow_y": -102.81, 
+      "l_arm_z": -74.77, 
+      "l_shoulder_x": 37.21, 
+      "l_shoulder_y": -69.38
+    }, 
+    {
+      "l_elbow_y": -102.81, 
+      "l_arm_z": -76.53, 
+      "l_shoulder_x": 37.21, 
+      "l_shoulder_y": -68.95
+    }, 
+    {
+      "l_elbow_y": -102.81, 
+      "l_arm_z": -78.37, 
+      "l_shoulder_x": 37.21, 
+      "l_shoulder_y": -68.42
+    }, 
+    {
+      "l_elbow_y": -102.73, 
+      "l_arm_z": -79.87, 
+      "l_shoulder_x": 37.12, 
+      "l_shoulder_y": -67.89
+    }, 
+    {
+      "l_elbow_y": -102.55, 
+      "l_arm_z": -81.45, 
+      "l_shoulder_x": 37.12, 
+      "l_shoulder_y": -67.36
+    }, 
+    {
+      "l_elbow_y": -102.46, 
+      "l_arm_z": -82.95, 
+      "l_shoulder_x": 37.03, 
+      "l_shoulder_y": -66.66
+    }, 
+    {
+      "l_elbow_y": -102.29, 
+      "l_arm_z": -84.53, 
+      "l_shoulder_x": 36.95, 
+      "l_shoulder_y": -65.78
+    }, 
+    {
+      "l_elbow_y": -102.02, 
+      "l_arm_z": -85.76, 
+      "l_shoulder_x": 36.95, 
+      "l_shoulder_y": -64.81
+    }, 
+    {
+      "l_elbow_y": -101.67, 
+      "l_arm_z": -86.81, 
+      "l_shoulder_x": 36.86, 
+      "l_shoulder_y": -63.67
+    }, 
+    {
+      "l_elbow_y": -101.23, 
+      "l_arm_z": -87.96, 
+      "l_shoulder_x": 36.77, 
+      "l_shoulder_y": -62.44
+    }, 
+    {
+      "l_elbow_y": -100.7, 
+      "l_arm_z": -88.92, 
+      "l_shoulder_x": 36.68, 
+      "l_shoulder_y": -61.21
+    }, 
+    {
+      "l_elbow_y": -100.09, 
+      "l_arm_z": -89.8, 
+      "l_shoulder_x": 36.59, 
+      "l_shoulder_y": -59.8
+    }, 
+    {
+      "l_elbow_y": -99.3, 
+      "l_arm_z": -90.51, 
+      "l_shoulder_x": 36.51, 
+      "l_shoulder_y": -58.480000000000004
+    }, 
+    {
+      "l_elbow_y": -98.51, 
+      "l_arm_z": -91.12, 
+      "l_shoulder_x": 36.33, 
+      "l_shoulder_y": -56.9
+    }, 
+    {
+      "l_elbow_y": -97.54, 
+      "l_arm_z": -91.56, 
+      "l_shoulder_x": 36.15, 
+      "l_shoulder_y": -55.32
+    }, 
+    {
+      "l_elbow_y": -96.48, 
+      "l_arm_z": -91.56, 
+      "l_shoulder_x": 35.98, 
+      "l_shoulder_y": -53.65
+    }, 
+    {
+      "l_elbow_y": -95.34, 
+      "l_arm_z": -91.12, 
+      "l_shoulder_x": 35.71, 
+      "l_shoulder_y": -51.98
+    }, 
+    {
+      "l_elbow_y": -94.11, 
+      "l_arm_z": -90.68, 
+      "l_shoulder_x": 35.45, 
+      "l_shoulder_y": -50.13
+    }, 
+    {
+      "l_elbow_y": -92.79, 
+      "l_arm_z": -90.15, 
+      "l_shoulder_x": 35.1, 
+      "l_shoulder_y": -48.2
+    }, 
+    {
+      "l_elbow_y": -91.38, 
+      "l_arm_z": -89.98, 
+      "l_shoulder_x": 34.75, 
+      "l_shoulder_y": -46.62
+    }, 
+    {
+      "l_elbow_y": -88.4, 
+      "l_arm_z": -89.89, 
+      "l_shoulder_x": 34.22, 
+      "l_shoulder_y": -44.15
+    }, 
+    {
+      "l_elbow_y": -87.43, 
+      "l_arm_z": -89.8, 
+      "l_shoulder_x": 34.04, 
+      "l_shoulder_y": -43.27
+    }, 
+    {
+      "l_elbow_y": -85.58, 
+      "l_arm_z": -89.89, 
+      "l_shoulder_x": 33.78, 
+      "l_shoulder_y": -41.96
+    }, 
+    {
+      "l_elbow_y": -83.65, 
+      "l_arm_z": -89.8, 
+      "l_shoulder_x": 33.43, 
+      "l_shoulder_y": -40.64
+    }, 
+    {
+      "l_elbow_y": -81.8, 
+      "l_arm_z": -89.71, 
+      "l_shoulder_x": 33.08, 
+      "l_shoulder_y": -39.32
+    }, 
+    {
+      "l_elbow_y": -79.69, 
+      "l_arm_z": -89.63, 
+      "l_shoulder_x": 32.81, 
+      "l_shoulder_y": -38.0
+    }, 
+    {
+      "l_elbow_y": -77.58, 
+      "l_arm_z": -89.45, 
+      "l_shoulder_x": 32.37, 
+      "l_shoulder_y": -36.68
+    }, 
+    {
+      "l_elbow_y": -75.74, 
+      "l_arm_z": -89.01, 
+      "l_shoulder_x": 32.11, 
+      "l_shoulder_y": -35.54
+    }, 
+    {
+      "l_elbow_y": -73.71, 
+      "l_arm_z": -88.57, 
+      "l_shoulder_x": 31.67, 
+      "l_shoulder_y": -34.31
+    }, 
+    {
+      "l_elbow_y": -71.6, 
+      "l_arm_z": -87.96, 
+      "l_shoulder_x": 31.409999999999997, 
+      "l_shoulder_y": -33.34
+    }, 
+    {
+      "l_elbow_y": -69.67, 
+      "l_arm_z": -87.25, 
+      "l_shoulder_x": 31.049999999999997, 
+      "l_shoulder_y": -32.2
+    }, 
+    {
+      "l_elbow_y": -67.91, 
+      "l_arm_z": -86.55, 
+      "l_shoulder_x": 30.700000000000003, 
+      "l_shoulder_y": -31.229999999999997
+    }, 
+    {
+      "l_elbow_y": -66.15, 
+      "l_arm_z": -85.58, 
+      "l_shoulder_x": 30.439999999999998, 
+      "l_shoulder_y": -30.259999999999998
+    }, 
+    {
+      "l_elbow_y": -64.48, 
+      "l_arm_z": -84.53, 
+      "l_shoulder_x": 30.090000000000003, 
+      "l_shoulder_y": -29.299999999999997
+    }, 
+    {
+      "l_elbow_y": -62.81, 
+      "l_arm_z": -83.38, 
+      "l_shoulder_x": 29.740000000000002, 
+      "l_shoulder_y": -28.240000000000002
+    }, 
+    {
+      "l_elbow_y": -61.32, 
+      "l_arm_z": -82.24, 
+      "l_shoulder_x": 29.47, 
+      "l_shoulder_y": -27.450000000000003
+    }, 
+    {
+      "l_elbow_y": -60.09, 
+      "l_arm_z": -80.92, 
+      "l_shoulder_x": 29.119999999999997, 
+      "l_shoulder_y": -26.57
+    }, 
+    {
+      "l_elbow_y": -58.77, 
+      "l_arm_z": -79.52, 
+      "l_shoulder_x": 28.770000000000003, 
+      "l_shoulder_y": -25.689999999999998
+    }, 
+    {
+      "l_elbow_y": -57.63, 
+      "l_arm_z": -78.11, 
+      "l_shoulder_x": 28.42, 
+      "l_shoulder_y": -24.810000000000002
+    }, 
+    {
+      "l_elbow_y": -56.57, 
+      "l_arm_z": -76.53, 
+      "l_shoulder_x": 28.07, 
+      "l_shoulder_y": -23.849999999999994
+    }, 
+    {
+      "l_elbow_y": -54.64, 
+      "l_arm_z": -73.27, 
+      "l_shoulder_x": 27.270000000000003, 
+      "l_shoulder_y": -22.090000000000003
+    }, 
+    {
+      "l_elbow_y": -53.93, 
+      "l_arm_z": -71.34, 
+      "l_shoulder_x": 26.92, 
+      "l_shoulder_y": -21.209999999999994
+    }, 
+    {
+      "l_elbow_y": -53.14, 
+      "l_arm_z": -69.49, 
+      "l_shoulder_x": 26.479999999999997, 
+      "l_shoulder_y": -20.33
+    }, 
+    {
+      "l_elbow_y": -52.53, 
+      "l_arm_z": -67.56, 
+      "l_shoulder_x": 26.130000000000003, 
+      "l_shoulder_y": -19.540000000000006
+    }, 
+    {
+      "l_elbow_y": -52.53, 
+      "l_arm_z": -67.56, 
+      "l_shoulder_x": 26.130000000000003, 
+      "l_shoulder_y": -19.540000000000006
+    }, 
+    {
+      "l_elbow_y": -51.82, 
+      "l_arm_z": -65.45, 
+      "l_shoulder_x": 25.689999999999998, 
+      "l_shoulder_y": -18.569999999999993
+    }, 
+    {
+      "l_elbow_y": -50.68, 
+      "l_arm_z": -61.49, 
+      "l_shoulder_x": 24.989999999999995, 
+      "l_shoulder_y": -16.810000000000002
+    }, 
+    {
+      "l_elbow_y": -50.15, 
+      "l_arm_z": -59.38, 
+      "l_shoulder_x": 24.64, 
+      "l_shoulder_y": -16.019999999999996
+    }, 
+    {
+      "l_elbow_y": -49.63, 
+      "l_arm_z": -57.1, 
+      "l_shoulder_x": 24.200000000000003, 
+      "l_shoulder_y": -15.049999999999997
+    }, 
+    {
+      "l_elbow_y": -49.1, 
+      "l_arm_z": -54.9, 
+      "l_shoulder_x": 23.760000000000005, 
+      "l_shoulder_y": -14.090000000000003
+    }, 
+    {
+      "l_elbow_y": -48.57, 
+      "l_arm_z": -52.62, 
+      "l_shoulder_x": 23.319999999999993, 
+      "l_shoulder_y": -13.209999999999994
+    }, 
+    {
+      "l_elbow_y": -47.96, 
+      "l_arm_z": -50.15, 
+      "l_shoulder_x": 22.790000000000006, 
+      "l_shoulder_y": -12.239999999999995
+    }, 
+    {
+      "l_elbow_y": -47.34, 
+      "l_arm_z": -48.04, 
+      "l_shoulder_x": 22.180000000000007, 
+      "l_shoulder_y": -11.450000000000003
+    }, 
+    {
+      "l_elbow_y": -46.46, 
+      "l_arm_z": -45.76, 
+      "l_shoulder_x": 21.47, 
+      "l_shoulder_y": -10.569999999999993
+    }, 
+    {
+      "l_elbow_y": -45.49, 
+      "l_arm_z": -43.3, 
+      "l_shoulder_x": 20.769999999999996, 
+      "l_shoulder_y": -9.780000000000001
+    }, 
+    {
+      "l_elbow_y": -44.53, 
+      "l_arm_z": -41.01, 
+      "l_shoulder_x": 19.980000000000004, 
+      "l_shoulder_y": -9.079999999999998
+    }, 
+    {
+      "l_elbow_y": -43.56, 
+      "l_arm_z": -38.9, 
+      "l_shoulder_x": 19.189999999999998, 
+      "l_shoulder_y": -8.459999999999994
+    }, 
+    {
+      "l_elbow_y": -42.42, 
+      "l_arm_z": -36.62, 
+      "l_shoulder_x": 18.310000000000002, 
+      "l_shoulder_y": -7.930000000000007
+    }, 
+    {
+      "l_elbow_y": -41.45, 
+      "l_arm_z": -34.51, 
+      "l_shoulder_x": 17.519999999999996, 
+      "l_shoulder_y": -7.409999999999997
+    }, 
+    {
+      "l_elbow_y": -40.4, 
+      "l_arm_z": -32.4, 
+      "l_shoulder_x": 16.810000000000002, 
+      "l_shoulder_y": -7.049999999999997
+    }, 
+    {
+      "l_elbow_y": -39.43, 
+      "l_arm_z": -30.46, 
+      "l_shoulder_x": 16.11, 
+      "l_shoulder_y": -6.790000000000006
+    }, 
+    {
+      "l_elbow_y": -38.37, 
+      "l_arm_z": -28.44, 
+      "l_shoulder_x": 15.409999999999997, 
+      "l_shoulder_y": -6.6200000000000045
+    }, 
+    {
+      "l_elbow_y": -37.32, 
+      "l_arm_z": -26.59, 
+      "l_shoulder_x": 14.620000000000005, 
+      "l_shoulder_y": -6.439999999999998
+    }, 
+    {
+      "l_elbow_y": -36.26, 
+      "l_arm_z": -24.84, 
+      "l_shoulder_x": 13.909999999999997, 
+      "l_shoulder_y": -6.260000000000005
+    }, 
+    {
+      "l_elbow_y": -35.21, 
+      "l_arm_z": -22.99, 
+      "l_shoulder_x": 13.209999999999994, 
+      "l_shoulder_y": -6.349999999999994
+    }, 
+    {
+      "l_elbow_y": -34.24, 
+      "l_arm_z": -21.41, 
+      "l_shoulder_x": 12.590000000000003, 
+      "l_shoulder_y": -6.349999999999994
+    }, 
+    {
+      "l_elbow_y": -33.1, 
+      "l_arm_z": -19.65, 
+      "l_shoulder_x": 11.980000000000004, 
+      "l_shoulder_y": -6.349999999999994
+    }, 
+    {
+      "l_elbow_y": -32.13, 
+      "l_arm_z": -18.07, 
+      "l_shoulder_x": 11.450000000000003, 
+      "l_shoulder_y": -6.349999999999994
+    }, 
+    {
+      "l_elbow_y": -31.25, 
+      "l_arm_z": -16.66, 
+      "l_shoulder_x": 10.840000000000003, 
+      "l_shoulder_y": -6.530000000000001
+    }, 
+    {
+      "l_elbow_y": -30.29, 
+      "l_arm_z": -15.16, 
+      "l_shoulder_x": 10.310000000000002, 
+      "l_shoulder_y": -6.530000000000001
+    }, 
+    {
+      "l_elbow_y": -30.29, 
+      "l_arm_z": -15.16, 
+      "l_shoulder_x": 10.310000000000002, 
+      "l_shoulder_y": -6.530000000000001
+    }, 
+    {
+      "l_elbow_y": -28.09, 
+      "l_arm_z": -11.91, 
+      "l_shoulder_x": 9.25, 
+      "l_shoulder_y": -6.790000000000006
+    }, 
+    {
+      "l_elbow_y": -27.21, 
+      "l_arm_z": -10.59, 
+      "l_shoulder_x": 8.810000000000002, 
+      "l_shoulder_y": -6.969999999999999
+    }, 
+    {
+      "l_elbow_y": -26.07, 
+      "l_arm_z": -9.19, 
+      "l_shoulder_x": 8.370000000000005, 
+      "l_shoulder_y": -7.140000000000001
+    }, 
+    {
+      "l_elbow_y": -25.1, 
+      "l_arm_z": -7.96, 
+      "l_shoulder_x": 8.019999999999996, 
+      "l_shoulder_y": -7.319999999999993
+    }, 
+    {
+      "l_elbow_y": -24.22, 
+      "l_arm_z": -7.16, 
+      "l_shoulder_x": 7.760000000000005, 
+      "l_shoulder_y": -7.409999999999997
+    }, 
+    {
+      "l_elbow_y": -23.34, 
+      "l_arm_z": -6.2, 
+      "l_shoulder_x": 7.579999999999998, 
+      "l_shoulder_y": -7.579999999999998
+    }, 
+    {
+      "l_elbow_y": -22.37, 
+      "l_arm_z": -5.32, 
+      "l_shoulder_x": 7.409999999999997, 
+      "l_shoulder_y": -7.670000000000002
+    }, 
+    {
+      "l_elbow_y": -21.58, 
+      "l_arm_z": -4.53, 
+      "l_shoulder_x": 7.230000000000004, 
+      "l_shoulder_y": -7.760000000000005
+    }, 
+    {
+      "l_elbow_y": -20.7, 
+      "l_arm_z": -3.91, 
+      "l_shoulder_x": 7.140000000000001, 
+      "l_shoulder_y": -7.849999999999994
+    }, 
+    {
+      "l_elbow_y": -19.82, 
+      "l_arm_z": -3.47, 
+      "l_shoulder_x": 7.049999999999997, 
+      "l_shoulder_y": -7.849999999999994
+    }, 
+    {
+      "l_elbow_y": -19.12, 
+      "l_arm_z": -3.12, 
+      "l_shoulder_x": 6.969999999999999, 
+      "l_shoulder_y": -7.930000000000007
+    }, 
+    {
+      "l_elbow_y": -18.51, 
+      "l_arm_z": -2.86, 
+      "l_shoulder_x": 6.969999999999999, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -17.89, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.969999999999999, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -17.36, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.11
+    }, 
+    {
+      "l_elbow_y": -16.92, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.969999999999999, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -16.57, 
+      "l_arm_z": -2.86, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -16.22, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -16.04, 
+      "l_arm_z": -2.86, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.78, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.790000000000006, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.6, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.790000000000006, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.86, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.790000000000006, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.790000000000006, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.790000000000006, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.86, 
+      "l_shoulder_x": 6.790000000000006, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.86, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.11
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.11
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.11
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.86, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.11
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.11
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.86, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.019999999999996
+    }, 
+    {
+      "l_elbow_y": -15.43, 
+      "l_arm_z": -2.77, 
+      "l_shoulder_x": 6.8799999999999955, 
+      "l_shoulder_y": -8.019999999999996
+    }
+  ], 
+  "framerate": 50
+}
