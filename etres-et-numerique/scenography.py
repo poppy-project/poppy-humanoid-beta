@@ -6,7 +6,7 @@ import pypot.primitive
 import pypot.primitive.move as move
 from pypot.primitive.utils import Sinus
 
-from poppytools.primitive.basic import StandPosition
+from poppytools.primitive.basic import StandPosition, SitPosition
 from poppytools.primitive.safe import ProtectPoppy
 from poppytools.primitive.interaction import SmartCompliance
 from poppytools.primitive.walking import WalkingGaitFromCPGFile
@@ -30,6 +30,7 @@ class InitScenography(pypot.primitive.Primitive):
         self.poppy_robot.attach_primitive(SmartCompliance(self.poppy_robot,self.poppy_robot.motors,50),'smart_compliance')
         self.poppy_robot.attach_primitive(SmartCompliance(self.poppy_robot,self.poppy_robot.arms,50), 'arms_compliance')
         self.poppy_robot.attach_primitive(StandPosition(self.poppy_robot), 'stand')
+        self.poppy_robot.attach_primitive(SitPosition(self.poppy_robot), 'sit')
 
         for m in self.poppy_robot.motors:
             m.compliant = False
@@ -153,24 +154,27 @@ class WalkingScene(pypot.primitive.LoopPrimitive):
         self.poppy_robot.smart_compliance.stop()
         self.poppy_robot.smart_compliance.wait_to_stop()
 
-        self.walk = WalkingGaitFromCPGFile(self.poppy_robot, cycle_period=self.walking_period, gain=1.5)
-        self.body_motion = [
-                            Sinus(self.poppy_robot, 40, [self.poppy_robot.l_shoulder_y,], amp=20, freq=1.0/self.walking_period),
-                            Sinus(self.poppy_robot, 40, [self.poppy_robot.r_shoulder_y,], amp=20, freq=1.0/self.walking_period, phase=180),
-                            Sinus(self.poppy_robot, 40, [self.poppy_robot.head_z,], amp=10, freq=0.1),
-                            Sinus(self.poppy_robot, 40, [self.poppy_robot.head_y,], amp=15, freq=0.12),
-                            ]
-
         for m in self.poppy_robot.motors:
             m.compliant = False
             m.torque_limit = 80
             m.moving_speed = 0
 
+        self.poppy_robot.attach_primitive(WalkingGaitFromCPGFile(self.poppy_robot, cycle_period=self.walking_period, gain=1.5), 'air_walk')
+        self.body_motion = [
+           Sinus(self.poppy_robot, 40, [self.poppy_robot.l_shoulder_y,], amp=5, freq=1.0/self.walking_period, phase=180),
+           Sinus(self.poppy_robot, 40, [self.poppy_robot.r_shoulder_y,], amp=5, freq=1.0/self.walking_period),
+           Sinus(self.poppy_robot, 40, [self.poppy_robot.l_elbow_y,], amp=10, freq=1.0/self.walking_period, offset=-10, phase=180),
+           Sinus(self.poppy_robot, 40, [self.poppy_robot.r_elbow_y,], amp=10, freq=1.0/self.walking_period, offset=-10),
+           Sinus(self.poppy_robot, 40, [self.poppy_robot.head_z,], amp=10, freq=0.1),
+           Sinus(self.poppy_robot, 40, [self.poppy_robot.head_y,], amp=15, freq=1/10),
+           Sinus(self.poppy_robot, 40, [self.poppy_robot.abs_z,], amp=5, freq=1.0/self.walking_period, phase=180),
+                            ]
+
         self.poppy_robot.stand.start()
         self.poppy_robot.stand.wait_to_stop()
 
         self.poppy_robot.torque_protection.start()
-        self.walk.start()
+        self.poppy_robot.air_walk.start()
         for motion in self.body_motion:
             motion.start()
 
@@ -178,38 +182,21 @@ class WalkingScene(pypot.primitive.LoopPrimitive):
         pass
 
     def teardown(self):
-        self.walk.stop()
-        self.walk.wait_to_stop()
+        self.poppy_robot.air_walk.stop()
+        self.poppy_robot.air_walk.wait_to_stop()
         self.poppy_robot.torque_protection.stop()
         self.poppy_robot.torque_protection.wait_to_stop()
-        # del self.walk
+
+        for m in self.poppy_robot.motors:
+            m.moving_speed = 0
+
+        self.poppy_robot.sit.start()
+        # del self.poppy_robot.air_walk
 
         for motion in self.body_motion:
             motion.stop()
-            motion.wait_to_stop()
+            # motion.wait_to_stop()
             # del motion
-
-    #     self.sit_position()
-
-
-    # def sit_position(self):
-        self.poppy_robot.stand.start()
-        self.poppy_robot.stand.wait_to_stop()
-
-        print 'bite'
-        self.robot.l_hip_y.goal_position = -35
-        self.robot.r_hip_y.goal_position = -35
-
-        for m in self.poppy_robot.torso + self.poppy_robot.arms:
-            m.goto_position(0,2)
-
-        print 'vagin'
-        motor_list = [self.robot.l_knee_y, self.robot.l_ankle_y, self.robot.r_knee_y, self.robot.r_ankle_y]
-
-        for m in motor_list:
-            m.compliant = True
-
-        time.sleep(3)
 
 
 
@@ -286,8 +273,6 @@ class TangoScene(pypot.primitive.LoopPrimitive):
 
     def setup(self):
         self.poppy_robot.stand.start()
-        self.poppy_robot.torque_protection.stop()
-        self.poppy_robot.torque_protection.wait_to_stop()
         self.poppy_robot.stand.wait_to_stop()
 
         self.poppy_robot.arms_compliance.start()

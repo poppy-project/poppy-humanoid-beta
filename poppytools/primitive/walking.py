@@ -48,6 +48,10 @@ class WalkingGaitFromCPGFile(pypot.primitive.LoopPrimitive):
         self.robot.goto_position(self.cycle_motors_orders[self.cycle_iter],
                                 self.current_period)
 
+    def teardwon(self):
+        for m in self.robot.motors:
+            m.moving_speed = 0
+
     def generate_loop_motion(self):
         # Creation du dictionnaire de positions moteurs
         self.cycle_motors_orders = [

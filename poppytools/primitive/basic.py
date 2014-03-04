@@ -67,8 +67,8 @@ class StandPosition(InitRobot):
 
 class SitPosition(pypot.primitive.Primitive):
     def run(self):
-        self.robot.l_hip_y.goal_position = -35
-        self.robot.r_hip_y.goal_position = -35
+        self.robot.l_hip_y.goto_position(-35, 2)
+        self.robot.r_hip_y.goto_position(-35, 2)
         self.robot.l_knee_y.goto_position(125, 2)
         self.robot.r_knee_y.goto_position(125, 2, wait=True)
 
