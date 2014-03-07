@@ -160,14 +160,15 @@ class WalkingScene(pypot.primitive.LoopPrimitive):
             m.moving_speed = 0
 
         self.poppy_robot.attach_primitive(WalkingGaitFromCPGFile(self.poppy_robot, cycle_period=self.walking_period, gain=1.5), 'air_walk')
+
         self.body_motion = [
-           Sinus(self.poppy_robot, 40, [self.poppy_robot.l_shoulder_y,], amp=5, freq=1.0/self.walking_period, phase=180),
-           Sinus(self.poppy_robot, 40, [self.poppy_robot.r_shoulder_y,], amp=5, freq=1.0/self.walking_period),
-           Sinus(self.poppy_robot, 40, [self.poppy_robot.l_elbow_y,], amp=10, freq=1.0/self.walking_period, offset=-10, phase=180),
-           Sinus(self.poppy_robot, 40, [self.poppy_robot.r_elbow_y,], amp=10, freq=1.0/self.walking_period, offset=-10),
-           Sinus(self.poppy_robot, 40, [self.poppy_robot.head_z,], amp=10, freq=0.1),
-           Sinus(self.poppy_robot, 40, [self.poppy_robot.head_y,], amp=15, freq=1/10),
-           Sinus(self.poppy_robot, 40, [self.poppy_robot.abs_z,], amp=5, freq=1.0/self.walking_period, phase=180),
+                           Sinus(self.poppy_robot, 40, [self.poppy_robot.l_shoulder_y,], amp=5, freq=1.0/self.walking_period, phase=180),
+                           Sinus(self.poppy_robot, 40, [self.poppy_robot.r_shoulder_y,], amp=5, freq=1.0/self.walking_period),
+                           Sinus(self.poppy_robot, 40, [self.poppy_robot.l_elbow_y,], amp=10, freq=1.0/self.walking_period, offset=-10, phase=180),
+                           Sinus(self.poppy_robot, 40, [self.poppy_robot.r_elbow_y,], amp=10, freq=1.0/self.walking_period, offset=-10),
+                           Sinus(self.poppy_robot, 40, [self.poppy_robot.head_z,], amp=10, freq=0.1),
+                           Sinus(self.poppy_robot, 40, [self.poppy_robot.head_y,], amp=15, freq=1/10),
+                           Sinus(self.poppy_robot, 40, [self.poppy_robot.abs_z,], amp=5, freq=1.0/self.walking_period, phase=180),
                             ]
 
         self.poppy_robot.stand.start()
@@ -191,13 +192,10 @@ class WalkingScene(pypot.primitive.LoopPrimitive):
             m.moving_speed = 0
 
         self.poppy_robot.sit.start()
-        # del self.poppy_robot.air_walk
 
         for motion in self.body_motion:
             motion.stop()
-            # motion.wait_to_stop()
-            # del motion
-
+            motion.wait_to_stop()
 
 
 MOVES_LEFT = 'ma_left_'
@@ -273,7 +271,7 @@ class TangoScene(pypot.primitive.LoopPrimitive):
 
     def setup(self):
         self.poppy_robot.arms_compliance.start()
-        
+
         self.poppy_robot.stand.start()
         self.poppy_robot.stand.wait_to_stop()
 
