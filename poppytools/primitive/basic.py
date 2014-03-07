@@ -5,11 +5,7 @@ import pypot.primitive
 
 
 class InitRobot(pypot.primitive.Primitive):
-    def setup(self):
-        return
-        
-        print 'InitRobot setup', self
-
+    def run(self):
         print("initialisation")
 
         self.robot.compliant = False
@@ -22,23 +18,23 @@ class InitRobot(pypot.primitive.Primitive):
 
         # Reduce max torque to keep motor temperature low
         for m in self.robot.motors:
-            m.torque_limit = 90
+            m.torque_limit = 70
 
         for m in self.robot.torso:
             m.pid = (6, 2, 0)
 
-        time.sleep(1)
+        time.sleep(0.5)
 
 
 class StandPosition(InitRobot):
     def run(self):
-        print 'StandPosition run', self
+        InitRobot.run(self)
 
         # Goto to position 0 on all motors
         self.robot.goto_position(dict(zip((m.name for m in self.robot.motors),
                                             itertools.repeat(0))),
                                             2)
-        time.sleep(1)
+
         # Specified some motor positions to keep the robot balanced
         self.robot.goto_position({'r_hip_z': -2,
                                 'l_hip_z': 2,
@@ -58,7 +54,6 @@ class StandPosition(InitRobot):
                                 3,
                                 wait=True)
 
-    def teardown(self):
         # Restore the motor speed
         self.robot.power_max()
 
@@ -69,15 +64,15 @@ class StandPosition(InitRobot):
 
 class SitPosition(pypot.primitive.Primitive):
     def run(self):
-        self.robot.l_hip_y.goto_position(-35, 2)
-        self.robot.r_hip_y.goto_position(-35, 2)
+        self.robot.l_hip_y.goal_position = -35
+        self.robot.r_hip_y.goal_position = -35
         self.robot.l_knee_y.goto_position(125, 2)
         self.robot.r_knee_y.goto_position(125, 2, wait=True)
 
         for m in self.robot.torso:
             m.goal_position = 0
 
-        self.robot.abs_y.goal_position = 0
+        self.robot.abs_y.goal_position = 7
 
         motor_list = [self.robot.l_knee_y, self.robot.l_ankle_y, self.robot.r_knee_y, self.robot.r_ankle_y]
 

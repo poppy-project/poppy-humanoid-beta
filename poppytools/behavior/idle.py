@@ -28,7 +28,7 @@ class HeadOrShake(pypot.primitive.LoopPrimitive):
         self.track = deque([False], 2 * self.freq)
 
         self.poppy_robot._camera.start()
-        # self.poppy_robot._head_tracking.start()
+        self.poppy_robot._head_tracking.start()
         self.poppy_robot._breathing.start()
         self.poppy_robot._head_motion.start()
         self.poppy_robot._arm_interaction.start()
