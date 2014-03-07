@@ -14,7 +14,7 @@ import pypot.primitive.move as move
 
 from poppytools.configuration.config import poppy_config
 from poppytools.primitive.basic import InitRobot, SitPosition, StandPosition
-from poppytools.primitive.interaction import ArmsCompliant, ArmsCopyMotion
+from poppytools.primitive.interaction import ArmsCompliant, ArmsCopyMotion, SmartCompliance
 from poppytools.primitive.walking import WalkingGaitFromCPGFile
 from poppytools.behavior.idle import HeadOrShake
 
@@ -56,6 +56,7 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         self.poppy.start_sync()
 
         self.poppy.attach_primitive(InitRobot(self.poppy), 'init')
+        self.poppy.attach_primitive(SmartCompliance(self.poppy, self.poppy.motors ,50), 'smart_compliance')
         self.poppy.attach_primitive(StandPosition(self.poppy), 'stand')
         self.poppy.attach_primitive(ArmsCompliant(self.poppy, 10), 'arms_compliant')
         self.poppy.attach_primitive(WalkingGaitFromCPGFile(self.poppy), 'walk')
@@ -78,10 +79,10 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         motors = sum([getattr(self.poppy, name) for name in self.motor_group], [])
 
         if self.window.compliant_box.checkState():
-            for m in motors:
-                m.compliant = True
+            self.poppy.attach_primitive(SmartCompliance(self.poppy, motors, 50), 'recorder_compliance')
+            self.poppy.recorder_compliance.start()
 
-        time.sleep(0.5)
+        time.sleep(0.2)
 
         self.recorder = move.MoveRecorder(self.poppy, 50, motors)
         self.recorder.start()
@@ -98,6 +99,12 @@ class RecorderApp(PyQt4.QtGui.QApplication):
             self.recorder.move.save(f)
         self.scan_moves()
 
+        self.poppy.recorder_compliance.stop()
+        self.poppy.recorder_compliance.wait_to_stop()
+
+        del self.poppy.recorder_compliance
+
+        self.rest = self.poppy.init
         self.rest.start()
         self.rest.wait_to_stop()
 
@@ -113,6 +120,10 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         for name in names:
             if name == 'walk':
                 self.poppy.walk.start()
+                continue
+
+            if name == 'smart compliance':
+                self.poppy.smart_compliance.start()
                 continue
 
             elif name == 'compliant arms':
@@ -168,10 +179,10 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         self.window.play_button.setEnabled(True)
         self.window.stop_button_2.setEnabled(False)
 
-        self.rest.start()
-        self.rest.wait_to_stop()
+        # self.rest.start()
+        # self.rest.wait_to_stop()
 
-        time.sleep(0.5)
+        time.sleep(0.1)
 
 
     @property
@@ -198,6 +209,7 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         names.append('walk')
         names.append('compliant arms')
         names.append('arm copy')
+        names.append('smart compliance')
         names.append('head tracking')
         names.append('sit')
 

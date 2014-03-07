@@ -25,13 +25,15 @@ class WalkingGaitFromCPGFile(pypot.primitive.LoopPrimitive):
         self.generate_loop_motion()
 
 
-    def init_loop_primitive(self):
+    def setup(self):
         self.robot.l_hip_z.goal_position = 0
         self.robot.l_hip_x.goal_position = 1
         self.robot.r_hip_z.goal_position = 0
         self.robot.r_hip_x.goal_position = -1
 
         self.robot_configuration()
+
+        self.robot.goto_position(self.cycle_motors_orders[0], self.cycle_period / 2.0, wait=True)
 
 
     def update(self):
@@ -45,6 +47,10 @@ class WalkingGaitFromCPGFile(pypot.primitive.LoopPrimitive):
 
         self.robot.goto_position(self.cycle_motors_orders[self.cycle_iter],
                                 self.current_period)
+
+    def teardwon(self):
+        for m in self.robot.motors:
+            m.moving_speed = 0
 
     def generate_loop_motion(self):
         # Creation du dictionnaire de positions moteurs

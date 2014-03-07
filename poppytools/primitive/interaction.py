@@ -4,6 +4,30 @@ from collections import deque
 
 import pypot.primitive
 
+class SmartCompliance(pypot.primitive.LoopPrimitive):
+    def __init__(self, poppy_robot, motor_list, freq=50, ):
+        pypot.primitive.LoopPrimitive.__init__(self,poppy_robot, freq)
+
+        self.poppy_robot = poppy_robot
+        self.motor_list = [self.get_mockup_motor(m) for m in motor_list]
+
+        self.compute_angle_limit()
+
+    def update(self):
+        for i, m in enumerate(self.motor_list):
+            angle_limit = self.angles[i]
+            if (min(angle_limit) > m.present_position) or (m.present_position > max(angle_limit)):
+                m.compliant = False
+            else:
+                m.compliant = True
+
+    def compute_angle_limit(self):
+        self.angles = []
+        for m in self.motor_list:
+            ang = numpy.asarray(m.angle_limit) if m.direct else -1 * numpy.asarray(m.angle_limit)
+            ang = ang - m.offset
+            self.angles.append(ang)
+
 
 class ArmsCompliant(pypot.primitive.LoopPrimitive):
     def start(self):
