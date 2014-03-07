@@ -77,35 +77,28 @@ poppy_config['motors'] = {
       "type": "MX-28",
       "orientation": "indirect",
       "offset": 0.0,
-      "angle_limit": [-60, 45 ],
+      "angle_limit": [-70, 25 ],
     },
     "r_shoulder_x": {
       "id": 52,
       "type": "MX-28",
       "orientation": "indirect",
       "offset": 90.0,
-      "angle_limit": [-95, 95 ],
-    },
-    "r_shoulder_y": {
-      "id": 51,
-      "type": "MX-28",
-      "orientation": "indirect",
-      "offset": 67.5,
-      "angle_limit": [-150, 150 ],
+      "angle_limit": [-110, 105 ],
     },
     "r_hip_z": {
       "id": 22,
       "type": "MX-28",
       "orientation": "indirect",
-      "offset": 22.5,
-      "angle_limit": [-40, 2 ],
+      "offset": 0,
+      "angle_limit": [-25, 40 ],
     },
     "r_hip_x": {
       "id": 21,
       "type": "MX-28",
       "orientation": "direct",
       "offset": 0.0,
-      "angle_limit": [-39, 10 ],
+      "angle_limit": [-45, 20 ],
     },
     "r_hip_y": {
       "id": 23,
@@ -126,7 +119,7 @@ poppy_config['motors'] = {
       "type": "MX-28",
       "orientation": "direct",
       "offset": 0.0,
-      "angle_limit": [-12, 37 ],
+      "angle_limit": [-22, 45 ],
     },
     "l_hip_y": {
       "id": 13,
@@ -139,22 +132,22 @@ poppy_config['motors'] = {
       "id": 12,
       "type": "MX-28",
       "orientation": "indirect",
-      "offset": -22.5,
-      "angle_limit": [-2, 40 ],
+      "offset": 0,
+      "angle_limit": [-40, 25 ],
     },
     "abs_x": {
       "id": 32,
       "type": "MX-28",
       "orientation": "indirect",
       "offset": 0.0,
-      "angle_limit": [-35, 35 ],
+      "angle_limit": [-45, 45 ],
     },
     "abs_y": {
       "id": 31,
       "type": "MX-28",
       "orientation": "indirect",
       "offset": 0.0,
-      "angle_limit": [-39, 16 ],
+      "angle_limit": [-37, 16 ],
     },
     "abs_z": {
       "id": 33,
@@ -168,21 +161,21 @@ poppy_config['motors'] = {
       "type": "MX-28",
       "orientation": "direct",
       "offset": 0.0,
-      "angle_limit": [-45, 60 ],
+      "angle_limit": [-35, 70 ],
     },
     "bust_y": {
       "id": 34,
       "type": "MX-28",
       "orientation": "indirect",
       "offset": 0.0,
-      "angle_limit": [-49, 22 ],
+      "angle_limit": [-46, 23 ],
     },
     "bust_x": {
       "id": 35,
       "type": "MX-28",
       "orientation": "indirect",
       "offset": 0.0,
-      "angle_limit": [-30, 30 ],
+      "angle_limit": [-40, 40 ],
     },
     "l_knee_y": {
       "id": 14,
@@ -196,14 +189,21 @@ poppy_config['motors'] = {
       "type": "MX-28",
       "orientation": "indirect",
       "offset": -90.0,
-      "angle_limit": [-95, 95 ],
+      "angle_limit": [-105, 110 ],
     },
     "l_shoulder_y": {
       "id": 41,
       "type": "MX-28",
       "orientation": "direct",
-      "offset": 67.5,
-      "angle_limit": [-150, 150 ],
+      "offset": 90,
+      "angle_limit": [-120, 155 ],
+    },
+    "r_shoulder_y": {
+      "id": 51,
+      "type": "MX-28",
+      "orientation": "indirect",
+      "offset": 90,
+      "angle_limit": [-155, 120 ],
     },
 }
 
@@ -219,7 +219,7 @@ if __name__ == '__main__':
 
     '''
     import json
-    poppy_config['controllers']['lower_body_controller']['port'] = "COM6"
+    poppy_config['controllers']['lower_body_controller']['port'] = "COM8"
     poppy_config['controllers']['upper_body_controller']['port'] = "COM7"
 
     with open('poppy_config.json','w') as f:
