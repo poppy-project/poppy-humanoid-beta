@@ -19,7 +19,7 @@ class HeadOrShake(pypot.primitive.LoopPrimitive):
         self.freq = freq
         self.mode = 'head_idle'
 
-    def start(self):
+    def setup(self):
         self.poppy_robot._camera = PSEyeCamera(self.camera_id)
         self.poppy_robot._head_tracking = HeadTracking(self.poppy_robot, self.freq, '_camera')
         self.poppy_robot._breathing = UpperBodyIdleMotion(self.poppy_robot, self.freq)
@@ -33,11 +33,11 @@ class HeadOrShake(pypot.primitive.LoopPrimitive):
         self.poppy_robot._head_motion.start()
         self.poppy_robot._arm_interaction.start()
 
-        pypot.primitive.LoopPrimitive.start(self)
+
 
         self.mode = 'head_idle'
 
-    def stop(self):
+    def teardown(self):
         self.poppy_robot._head_tracking.stop()
         self.poppy_robot._head_tracking.wait_to_stop()
         self.poppy_robot._breathing.stop()
@@ -53,7 +53,7 @@ class HeadOrShake(pypot.primitive.LoopPrimitive):
         del self.poppy_robot._head_motion
         del self.poppy_robot._arm_interaction
 
-        pypot.primitive.LoopPrimitive.stop(self)
+
 
     def switch_mode(self):
         if self.mode == 'head_idle':
@@ -69,15 +69,12 @@ class HeadOrShake(pypot.primitive.LoopPrimitive):
 
     def update(self):
         img = self.poppy_robot._camera.last_frame
-
         if img is not None:
             self.track.append(self.poppy_robot._head_tracking.tracking)
-
             x1, y1, x2, y2 = self.poppy_robot._head_tracking.last_head_rect
             cv2.rectangle(img, (x1, y1), (x2, y2), (0, 255, 0))
-
             cv2.imshow("poppy", img.copy())
-            cv2.waitKey(1)
+            # cv2.waitKey(1)
 
         if self.mode == 'tracking' and numpy.mean(self.track) < 0.1:
             self.switch_mode()
