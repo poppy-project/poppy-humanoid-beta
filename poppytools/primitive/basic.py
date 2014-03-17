@@ -5,7 +5,7 @@ import pypot.primitive
 
 
 class InitRobot(pypot.primitive.Primitive):
-    def run(self):
+    def setup(self):
         print("initialisation")
 
         self.robot.compliant = False
@@ -27,9 +27,8 @@ class InitRobot(pypot.primitive.Primitive):
 
 
 class StandPosition(InitRobot):
-    def run(self):
-        InitRobot.run(self)
 
+    def run(self):
         # Goto to position 0 on all motors
         self.robot.goto_position(dict(zip((m.name for m in self.robot.motors),
                                             itertools.repeat(0))),
