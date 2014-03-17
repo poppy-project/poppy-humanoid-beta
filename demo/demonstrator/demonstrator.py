@@ -12,10 +12,11 @@ import pypot.robot
 import pypot.primitive
 import pypot.primitive.move as move
 
+import poppytools
 from poppytools.configuration.config import poppy_config
 from poppytools.primitive.basic import InitRobot, SitPosition, StandPosition
 from poppytools.primitive.interaction import ArmsCompliant, ArmsCopyMotion, SmartCompliance
-from poppytools.primitive.walking import WalkingGaitFromCPGFile
+from poppytools.primitive.walking import WalkingGaitFromCPGFile, WalkingGaitFromMat
 from poppytools.behavior.idle import HeadOrShake
 
 motor_to_motor = {
@@ -52,6 +53,7 @@ class RecorderApp(PyQt4.QtGui.QApplication):
 
         self.scan_moves()
 
+        cpg_filename = os.path.join(os.path.dirname(poppytools.__file__), 'behavior', 'IROS_Normal_Gait.mat')
         self.poppy = pypot.robot.from_config(poppy_config)
         self.poppy.start_sync()
 
@@ -59,7 +61,7 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         self.poppy.attach_primitive(SmartCompliance(self.poppy, self.poppy.motors ,50), 'smart_compliance')
         self.poppy.attach_primitive(StandPosition(self.poppy), 'stand')
         self.poppy.attach_primitive(ArmsCompliant(self.poppy, 10), 'arms_compliant')
-        self.poppy.attach_primitive(WalkingGaitFromCPGFile(self.poppy), 'walk')
+        self.poppy.attach_primitive(WalkingGaitFromMat(self.poppy, cpg_filename, compliant_motion=True), 'walk')
         self.poppy.attach_primitive(ArmsCopyMotion(self.poppy, 50), 'arm_copy')
         self.poppy.attach_primitive(HeadOrShake(self.poppy, 10, 1), 'head_tracking')
         self.poppy.attach_primitive(SitPosition(self.poppy), 'sit_position')
