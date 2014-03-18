@@ -108,9 +108,8 @@ class RecorderApp(PyQt4.QtGui.QApplication):
 
         del self.poppy.recorder_compliance
 
-        self.rest = self.poppy.init
-        self.rest.start()
-        self.rest.wait_to_stop()
+        self.poppy.init.start()
+        self.poppy.init.wait_to_stop()
 
 
     def play_move(self):
