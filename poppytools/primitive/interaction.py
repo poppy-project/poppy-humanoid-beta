@@ -41,6 +41,9 @@ class ArmsCompliant(pypot.primitive.LoopPrimitive):
 
 class ArmsCopyMotion(pypot.primitive.LoopPrimitive):
     def start(self):
+        for m in self.robot.arms:
+            m.moving_speed =  0
+
         for m in self.robot.l_arm:
             m.compliant = True
         for m in self.robot.r_arm:

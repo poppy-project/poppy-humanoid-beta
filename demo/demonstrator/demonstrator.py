@@ -53,7 +53,7 @@ class RecorderApp(PyQt4.QtGui.QApplication):
 
         self.scan_moves()
 
-        cpg_filename = os.path.join(os.path.dirname(poppytools.__file__), 'behavior', 'IROS_Normal_Gait.mat')
+        cpg_filename = os.path.join(os.path.dirname(poppytools.__file__), '../experiment', 'IROS_Normal_Gait.mat')
         self.poppy = pypot.robot.from_config(poppy_config)
         self.poppy.start_sync()
 
@@ -111,7 +111,8 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         self.rest = self.poppy.init
         self.rest.start()
         self.rest.wait_to_stop()
-
+        for m in self.poppy.arms:
+            m.compliant = False
 
     def play_move(self):
         names = self.selected_move()
