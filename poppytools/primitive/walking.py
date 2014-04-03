@@ -181,6 +181,9 @@ class WalkingGaitFromMat(pypot.primitive.LoopPrimitive):
             m.pid = (3, 1, 0)
             m.torque_limit = 100
 
+        for m in self.robot.torso:
+            m.torque_limit = 50
+
     def ankle_compliance_rule(self):
 
         if self.r_ankle_compliance[self.cycle_iter]:

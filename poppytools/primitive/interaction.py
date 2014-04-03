@@ -1,8 +1,10 @@
+import time
 import numpy
 
 from collections import deque
 
 import pypot.primitive
+
 
 class SmartCompliance(pypot.primitive.LoopPrimitive):
     def __init__(self, poppy_robot, motor_list, freq=50, ):
@@ -54,6 +56,17 @@ class ArmsCopyMotion(pypot.primitive.LoopPrimitive):
     def update(self):
         for lm, rm in zip(self.robot.l_arm, self.robot.r_arm):
             rm.goal_position = lm.present_position * (1 if lm.direct else -1)
+
+    def teardown(self):
+        for m in self.robot.arms:
+            m.compliant = False
+            m.goto_position(0,2)
+
+        time.sleep(2)
+        for m in self.robot.arms:
+            m.moving_speed = 0
+
+
 
 
 class ArmsTurnCompliant(pypot.primitive.LoopPrimitive):
