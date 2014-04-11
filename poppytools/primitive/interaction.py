@@ -56,6 +56,8 @@ class ArmsCopyMotion(pypot.primitive.LoopPrimitive):
             rm.goal_position = lm.present_position * (1 if lm.direct else -1)
 
 
+
+
 class ArmsTurnCompliant(pypot.primitive.LoopPrimitive):
     def __init__(self, poppy_robot, freq):
         pypot.primitive.LoopPrimitive.__init__(self, poppy_robot, freq)

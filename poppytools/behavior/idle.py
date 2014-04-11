@@ -7,7 +7,7 @@ from collections import deque
 
 from poppytools.primitive.idle import UpperBodyIdleMotion, HeadIdleMotion
 from poppytools.sensor.vision import PSEyeCamera
-from poppytools.primitive.tracking import HeadTracking
+from poppytools.primitive.tracking import HeadTracking2 as HeadTracking
 from poppytools.primitive.interaction import ArmsTurnCompliant
 
 class HeadOrShake(pypot.primitive.LoopPrimitive):
@@ -76,11 +76,18 @@ class HeadOrShake(pypot.primitive.LoopPrimitive):
             cv2.imshow("poppy", img.copy())
             # cv2.waitKey(1)
 
-        if self.mode == 'tracking' and numpy.mean(self.track) < 0.1:
-            self.switch_mode()
+        # print self.mode
+        # if self.mode == 'tracking' and numpy.mean(self.track) < 0.1:
+        #     self.switch_mode()
 
-        if self.mode == 'head_idle' and self.track[-1]:
-            self.switch_mode()
+        # if self.mode == 'head_idle' and self.track[-1]:
+            # self.switch_mode()
+
+        self.poppy_robot._head_motion.stop()
+        self.poppy_robot._head_motion.wait_to_stop()
+
+        self.poppy_robot._head_tracking.move = True
+        self.mode = 'tracking'
 
         #print self.mode, self.poppy_robot._head_tracking.move
 

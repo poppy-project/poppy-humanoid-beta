@@ -15,7 +15,7 @@ import pypot.primitive.move as move
 import poppytools
 from poppytools.configuration.config import poppy_config
 from poppytools.primitive.basic import InitRobot, SitPosition, StandPosition
-from poppytools.primitive.interaction import ArmsCompliant, ArmsCopyMotion, SmartCompliance
+from poppytools.primitive.interaction import ArmsCompliant, ArmsCopyMotion, SmartCompliance,  ArmsTurnCompliant
 from poppytools.primitive.walking import WalkingGaitFromCPGFile, WalkingGaitFromMat
 from poppytools.behavior.idle import HeadOrShake
 
@@ -53,7 +53,7 @@ class RecorderApp(PyQt4.QtGui.QApplication):
 
         self.scan_moves()
 
-        cpg_filename = os.path.join(os.path.dirname(poppytools.__file__), '../experiment', 'IROS_Normal_Gait.mat')
+        cpg_filename = os.path.join(os.path.dirname(poppytools.__file__), 'behavior', 'IROS_Normal_Gait.mat')
         self.poppy = pypot.robot.from_config(poppy_config)
         self.poppy.start_sync()
 
@@ -67,6 +67,7 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         self.poppy.attach_primitive(ArmsCopyMotion(self.poppy, 50), 'arm_copy')
         self.poppy.attach_primitive(HeadOrShake(self.poppy, 10, 1), 'head_tracking')
         self.poppy.attach_primitive(SitPosition(self.poppy), 'sit_position')
+        self.poppy.attach_primitive(ArmsTurnCompliant(self.poppy,  50), 'turn_compliant')
 
         self.rest = self.poppy.init
 
@@ -159,6 +160,11 @@ class RecorderApp(PyQt4.QtGui.QApplication):
                 self.rest = self.poppy.stand
                 continue
 
+            elif name == 'turn_compliant':
+                self.poppy.turn_compliant.start()
+                continue
+
+
             filename = os.path.join('moves','{}.json'.format(name))
             print filename
 
@@ -223,6 +229,7 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         names.append('smart compliance')
         names.append('head tracking')
         names.append('sit')
+        names.append('turn_compliant')
 
         b = True if names else False
         self.window.move_list.setEnabled(b)
