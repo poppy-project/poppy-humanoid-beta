@@ -79,6 +79,7 @@ class SwingPosture(pypot.primitive.Primitive):
 class SwingMotionUpperBody(pypot.primitive.LoopPrimitive):
     def __init__(self, poppy_robot, swing_frequency=0.5):
         pypot.primitive.LoopPrimitive.__init__(self, poppy_robot, 30)
+        self.poppy_robot = poppy_robot
 
         self._freq = swing_frequency
         self.motion_period =  1 / (2 * self._freq)
@@ -97,6 +98,7 @@ class SwingMotionUpperBody(pypot.primitive.LoopPrimitive):
 class SwingMotionLegs(pypot.primitive.LoopPrimitive):
     def __init__(self, poppy_robot, swing_frequency=0.5):
         pypot.primitive.LoopPrimitive.__init__(self, poppy_robot, 10)
+        self.poppy_robot = poppy_robot
 
         amp = 50
         offset = 60
@@ -137,7 +139,7 @@ if __name__ == '__main__':
 
     # Init robot position
     poppy.compliant = False
-    poppy.power_max()
+    poppy.power_up()
 
     poppy.swing_init_position.start()
     poppy.swing_init_position.wait_to_stop()
@@ -166,7 +168,7 @@ if __name__ == '__main__':
 
                 time.sleep(2 * 60)
 
-                poppy.power_max()
+                poppy.power_up()
                 poppy.l_arm_z.compliant = True
 
                 time.sleep(1)
