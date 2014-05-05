@@ -69,6 +69,8 @@ class ArmsCopyMotion(pypot.primitive.LoopPrimitive):
 
 
 
+
+
 class ArmsTurnCompliant(pypot.primitive.LoopPrimitive):
     def __init__(self, poppy_robot, freq):
         pypot.primitive.LoopPrimitive.__init__(self, poppy_robot, freq)
