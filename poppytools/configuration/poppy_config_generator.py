@@ -4,21 +4,21 @@ poppy_config={}
 poppy_config['controllers'] = {}
 
 poppy_config['controllers']['lower_body_controller'] = {
-    "port": "/dev/poppy_tbus",
+    "port": "TODO: Set the good port name",
     "sync_read": True,
     "attached_motors": ["legs"],
 }
 
 poppy_config['controllers']['upper_body_controller'] = {
-    "port": "/dev/poppy_lbus",
+    "port": "TODO: Set the good port name",
     "sync_read": True,
     "attached_motors": ["torso", "head", "arms"],
 }
 
 poppy_config['motorgroups'] = {
     "legs": ["l_leg", "r_leg"],
-    "l_leg": ["l_hip_x", "l_hip_z", "l_leg_sagitall", "l_ankle_x"],
-    "r_leg": ["r_hip_x", "r_hip_z", "r_leg_sagitall", "r_ankle_x"],
+    "l_leg": ["l_hip_x", "l_hip_z", "l_leg_sagitall"],
+    "r_leg": ["r_hip_x", "r_hip_z", "r_leg_sagitall"],
     "l_leg_sagitall": ["l_hip_y", "l_knee_y", "l_ankle_y"],
     "r_leg_sagitall": ["r_hip_y", "r_knee_y", "r_ankle_y"],
 
@@ -78,13 +78,6 @@ poppy_config['motors'] = {
       "orientation": "indirect",
       "offset": 0.0,
       "angle_limit": [-70, 25 ],
-    },
-    "r_ankle_x": {
-      "id": 26,
-      "type": "MX-28",
-      "orientation": "indirect",
-      "offset": 0.0,
-      "angle_limit": [-70, 70 ],
     },
     "r_shoulder_x": {
       "id": 52,
@@ -170,13 +163,6 @@ poppy_config['motors'] = {
       "offset": 0.0,
       "angle_limit": [-35, 70 ],
     },
-    "l_ankle_x": {
-      "id": 16,
-      "type": "MX-28",
-      "orientation": "direct",
-      "offset": 0.0,
-      "angle_limit": [-70, 70 ],
-    },
     "bust_y": {
       "id": 34,
       "type": "MX-28",
@@ -233,8 +219,9 @@ if __name__ == '__main__':
 
     '''
     import json
-    # poppy_config['controllers']['lower_body_controller']['port'] = "COM8"
-    # poppy_config['controllers']['upper_body_controller']['port'] = "COM7"
+    poppy_config['controllers']['lower_body_controller']['port'] = "COM8"
+    poppy_config['controllers']['upper_body_controller']['port'] = "COM7"
 
     with open('poppy_config.json','w') as f:
         json.dump(poppy_config, f, indent=2)
+
