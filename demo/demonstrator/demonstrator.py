@@ -117,6 +117,8 @@ class RecorderApp(PyQt4.QtGui.QApplication):
         for m in self.poppy.arms:
             m.compliant = False
 
+        self.poppy.power_up()
+
         self.poppy.init.start()
         self.poppy.init.wait_to_stop()
 
