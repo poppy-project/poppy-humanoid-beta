@@ -67,6 +67,7 @@ class WalkingGaitFromCPGFile(pypot.primitive.LoopPrimitive):
             m.pid = (3, 1, 0)
             m.torque_limit = 100
 
+
     def manage_ankle_compliance(self):
         if self.r_ankle_compliance[self.cycle_iter]:
             self.robot.r_ankle_y.compliant = True
@@ -181,8 +182,12 @@ class WalkingGaitFromMat(pypot.primitive.LoopPrimitive):
             m.pid = (3, 1, 0)
             m.torque_limit = 100
 
+
         for m in self.robot.torso:
-            m.torque_limit = 50
+            m.compliant = False
+            m.goal_position = 0
+            m.pid = (2, 0, 0)
+            m.torque_limit = 30
 
     def ankle_compliance_rule(self):
 

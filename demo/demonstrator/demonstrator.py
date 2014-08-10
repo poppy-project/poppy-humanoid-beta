@@ -121,8 +121,7 @@ class RecorderApp(PyQt4.QtGui.QApplication):
 
         self.poppy.init.start()
         self.poppy.init.wait_to_stop()
-
-
+        self.poppy.power_up()
 
     def play_move(self):
         names = self.selected_move()
