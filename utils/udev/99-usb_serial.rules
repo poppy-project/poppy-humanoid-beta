@@ -1,0 +1,8 @@
+# used for poppy sensors (developpement)
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", ATTRS{serial}=="A9014EQV", SYMLINK+="poppy_imu"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", ATTRS{serial}=="AH01B1CJ", SYMLINK+="poppy_lfoot"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", ATTRS{serial}=="AH01B1BN", SYMLINK+="poppy_rfoot"
+
+# rules for the motor buses. Modify with your own values (serial number)
+SUBSYSTEM=="tty", ATTRS{idVendor}=="16d0", ATTRS{idProduct}=="06a7", ATTRS{serial}=="6403635373035110A1D1", SYMLINK+="poppy_lbus"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="16d0", ATTRS{idProduct}=="06a7", ATTRS{serial}=="6403635373035170E1A1", SYMLINK+="poppy_tbus"
